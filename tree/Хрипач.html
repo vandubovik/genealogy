@@ -1,0 +1,3015 @@
+﻿<!--saved from url=(0016)http://localhost-->
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<style type="text/css">
+			* { padding: 0; margin: 0; border: 0; }
+			.modal { display: none; position: fixed; z-index: 1; padding-top: 2%; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+			.modal-content { background-color: #fefefe; margin: auto; padding: 5px 0px 20px 20px; border: 1px solid #888; width: 748px; height: 87%; min-height: 350px; }
+			#modalContent { border: 0; width: 100%; height: 98%; }
+			.modal-frame { border: 0; width: 100%; height: 99%; }
+			.close { color: #aaaaaa; float: right; font-size: 28px; font-weight: bold; margin-right: 10px; }
+			.close:hover, .close:focus { color: #000; text-decoration: none; cursor: pointer; }
+			.gbtn { float: left; margin-top: 8px; opacity: 0.7; width: 26px; height: 26px; background: no-repeat; }
+			.back { background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMTIgMkM2LjQ3NyAyIDIgNi40NzcgMiAxMnM0LjQ3NyAxMCAxMCAxMCAxMC00LjQ3NyAxMC0xMFMxNy41MjMgMiAxMiAyem0wIDEuNWE4LjUgOC41IDAgMSAxIDAgMTcgOC41IDguNSAwIDAgMSAwLTE3em0uMzUzIDQuMDUzLS4wNzMtLjA4NGEuNzUuNzUgMCAwIDAtLjk3Ni0uMDcybC0uMDg0LjA3My00IDRhLjc1Ljc1IDAgMCAwLS4wNzIuOTc2bC4wNzIuMDg0IDQuMDAyIDRhLjc1Ljc1IDAgMCAwIDEuMTMzLS45NzZsLS4wNzMtLjA4NC0yLjcyMi0yLjcyaDYuNjkxYS43NS43NSAwIDAgMCAuNzQ0LS42NDhMMTcgMTJhLjc1Ljc1IDAgMCAwLS42NDgtLjc0M2wtLjEwMi0uMDA3SDkuNTZsMi43Mi0yLjcyYS43NS43NSAwIDAgMCAuMDczLS45NzZsLS4wNzMtLjA4NHoiIGZpbGw9IiMxNzRDNzIiLz48L3N2Zz4="); }
+			.tree { margin-left: 12px; background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgdmlld0JveD0iMCAwIDI4IDI4IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMTQgMmE0LjI1IDQuMjUgMCAwIDAtLjc1IDguNDM0djMuMDY4aC00LjVhMi4yNSAyLjI1IDAgMCAwLTIuMjUgMi4yNXYxLjgxNmE0LjI1IDQuMjUgMCAxIDAgMS41LS4wMDJWMTUuNzVhLjc1Ljc1IDAgMCAxIC43NS0uNzVoMTAuNWEuNzUuNzUgMCAwIDEgLjc1Ljc1djEuODE2YTQuMjUxIDQuMjUxIDAgMSAwIDEuNSAwVjE1Ljc1YTIuMjUgMi4yNSAwIDAgMC0yLjI1LTIuMjVoLTQuNXYtMy4wNjhBNC4yNTEgNC4yNTEgMCAwIDAgMTQgMS45OTh6bS0yLjc1IDQuMjVhMi43NSAyLjc1IDAgMSAxIDUuNSAwIDIuNzUgMi43NSAwIDAgMS01LjUgMHptOS41IDEyLjc1MmEyLjc1IDIuNzUgMCAxIDEgMCA1LjUgMi43NSAyLjc1IDAgMCAxIDAtNS41eiIgZmlsbD0iIzE3NEM3MiIvPjwvc3ZnPg=="); }
+			.tree:hover, .tree:focus,.back:hover, .back:focus { cursor: pointer; opacity: 1;  }
+			.s0 { stroke:none;fill:#92DDF9; }
+			.s1 { stroke:#707070;stroke-width:1px;stroke-linecap:square;fill:none; }
+			.s2 { stroke:none;fill:#FBD27A; }
+			.s3 { stroke:none;fill:#FFFFFF; }
+			.s4 { stroke:none;fill:#A8A5FF; }
+			.s5 { font-family:Tahoma;font-size:11px;fill:#000000; }
+			.s6 { stroke:#707070;stroke-width:2px;stroke-linecap:square;fill:#707070; }
+			.s7 { stroke:#174C72;stroke-width:2px;stroke-linecap:square;fill:#174C72; }
+			.s8 { stroke:#707070;stroke-width:2px;stroke-linecap:square;fill:none; }
+			.s9 { stroke:none;fill:#C4C4C4; }
+			.s10 { stroke:none;fill:#E8E8E8; }
+			.s11 { stroke:none;fill:#000000; }
+			.s12 { stroke:#DADADA;stroke-width:1px;stroke-linecap:square;fill:none; }
+			.s13 { font-family:Tahoma;font-size:12px;fill:#000000; }
+			.s14 { font-family:Tahoma;font-size:12px;fill:#000000;font-weight:bold; }
+			.s15 { font-family:Tahoma;font-size:12px;fill:#000000;font-style:italic; }
+			.s16 { stroke:none;fill:#FFF7CC;fill-opacity:0.50; }
+			.s17 { font-family:Verdana;font-size:13px;fill:#000000; }
+			.po { cursor: pointer; }
+			.sh { filter: drop-shadow(3px 5px 2px rgba(0,0,0,0.4)); }
+			.da { stroke-dasharray:4,4; }
+			.rtl { direction: rtl; }
+			text { white-space: pre; }
+		</style>
+	</head>
+	<body>
+		<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="8897" height="1257" id="svg0" data-root="g9009">
+			<rect id="rect6" class="s3" x="0" y="0" width="8897" height="1257" />
+			<g id="g9003">
+				<rect id="rect3" class="s16" x="0" y="935" width="8897" height="176" />
+				<rect id="rect4" class="s16" x="0" y="493" width="8897" height="236" />
+				<rect id="rect5" class="s16" x="0" y="111" width="8897" height="161" />
+				<g id="g9004" transform="translate(25,10)">
+					<g id="g9005">
+						<g id="g9264" transform="translate(1939,0)">
+							<g id="g9265">
+								<g id="g9266">
+									<path id="l144" class="s6" d="M33 71v48" />
+									<g id="g9267" class="po" data-id="253">
+										<path id="p0" class="s0" d="M0,0h66v71h-66Z" />
+										<g id="g9433">
+											<text id="t0" class="s14" x="10" y="17">Хрипач</text>
+											<text id="t1" class="s14" x="14" y="32">Акула</text>
+											<text id="t2" class="s13" x="20" y="47">? – ?</text>
+											<text id="t3" class="s15" x="5" y="62">Пра(4)дед</text>
+										</g>
+										<path id="p1" class="s1" d="M0,0h66v71h-66Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9194" transform="translate(698,131)">
+							<path id="l147" class="s6" d="M220 -12h2109" />
+							<g id="g9268">
+								<path id="l149" class="s6" d="M173 50v99" />
+								<path id="l148" class="s7" d="M162 50h22" />
+								<g id="g9320">
+									<g id="g9321" class="po" data-id="271">
+										<path id="p5" class="s2" d="M0,10c0,-5 5,-10 10,-10h142c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-142c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp5">
+											<use xlink:href="#p5" />
+										</clipPath>
+										<g id="g9434" clip-path="url(#cp5)">
+											<image id="i0" xlink:href="./Хрипач.html.files/img/i0.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t4" class="s14" x="95" y="17">Хрипач</text>
+											<text id="t5" class="s14" x="92" y="32">Лукерья</text>
+											<text id="t6" class="s14" x="80" y="47">Кирилловна</text>
+											<text id="t7" class="s13" x="85" y="62">1887 – 1961</text>
+											<g id="g9435">
+												<path id="p2" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p3" class="s12" d="M0,11 l11,-11" />
+												<path id="p4" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p6" class="s1" d="M0,10c0,-5 5,-10 10,-10h142c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-142c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9269" transform="translate(184,0)">
+									<path id="l146" class="s6" d="M36 -12v12" />
+									<g id="g9270" class="po" data-id="254">
+										<path id="p7" class="s0" d="M0,0h72v101h-72Z" />
+										<g id="g9436">
+											<text id="t8" class="s14" x="13" y="17">Хрипач</text>
+											<text id="t9" class="s14" x="8" y="32">Дмитрий</text>
+											<text id="t10" class="s14" x="6" y="47">Акулович</text>
+											<text id="t11" class="s13" x="23" y="62">? – ?</text>
+											<text id="t12" class="s15" x="5" y="77">2-юродный</text>
+											<text id="t13" class="s15" x="8" y="92">пра(3)дед</text>
+										</g>
+										<path id="p8" class="s1" d="M0,0h72v101h-72Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9195" transform="translate(2294,0)">
+								<path id="l109" class="s6" d="M81 43v106" />
+								<path id="l108" class="s7" d="M70 43h22" />
+								<g id="g9196">
+									<path id="l145" class="s6" d="M35 -12v12" />
+									<g id="g9197" class="po" data-id="61">
+										<path id="p68" class="s0" d="M0,0h70v86h-70Z" />
+										<g id="g9462">
+											<text id="t114" class="s14" x="12" y="17">Хрипач</text>
+											<text id="t115" class="s14" x="11" y="32">Моисей</text>
+											<text id="t116" class="s14" x="5" y="47">Акулович</text>
+											<text id="t117" class="s13" x="22" y="62">? – ?</text>
+											<text id="t118" class="s15" x="7" y="77">Пра(3)дед</text>
+										</g>
+										<path id="p69" class="s1" d="M0,0h70v86h-70Z" />
+									</g>
+								</g>
+								<g id="g9322" transform="translate(92,0)">
+									<g id="g9323" class="po" data-id="425">
+										<path id="p70" class="s2" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp70">
+											<use xlink:href="#p70" />
+										</clipPath>
+										<g id="g9463" clip-path="url(#cp70)">
+											<text id="t119" class="s14" x="24" y="17">Хрипач</text>
+											<text id="t120" class="s14" x="17" y="32">Агрипина</text>
+											<text id="t121" class="s14" x="9" y="47">Николаевна</text>
+											<text id="t122" class="s13" x="34" y="62">? – ?</text>
+											<text id="t123" class="s15" x="5" y="77">Пра(3)бабушка</text>
+										</g>
+										<path id="p71" class="s1" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9271" transform="translate(0,292)">
+							<path id="l159" class="s6" d="M189 -12h1364" />
+							<g id="g9272">
+								<path id="l161" class="s6" d="M97 35v186" />
+								<path id="l160" class="s7" d="M86 35h22" />
+								<g id="g9279">
+									<g id="g9280" class="po" data-id="476">
+										<path id="p9" class="s2" d="M0,10c0,-5 5,-10 10,-10h66c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-66c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp9">
+											<use xlink:href="#p9" />
+										</clipPath>
+										<g id="g9437" clip-path="url(#cp9)">
+											<text id="t14" class="s14" x="5" y="17">(Алексеева)</text>
+											<text id="t15" class="s14" x="17" y="32">Варвара</text>
+											<text id="t16" class="s14" x="6" y="47">Алексеевна</text>
+											<text id="t17" class="s13" x="20" y="62">1906 – ?</text>
+										</g>
+										<path id="p10" class="s1" d="M0,10c0,-5 5,-10 10,-10h66c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-66c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9273" transform="translate(108,0)">
+									<path id="l150" class="s6" d="M81 -12v12" />
+									<g id="g9274" class="po" data-id="450">
+										<path id="p14" class="s0" d="M0,0h162v101h-162Z" />
+										<g id="g9438">
+											<image id="i1" xlink:href="./Хрипач.html.files/img/i1.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t18" class="s14" x="95" y="17">Хрипач</text>
+											<text id="t19" class="s14" x="90" y="32">Дорофей</text>
+											<text id="t20" class="s14" x="80" y="47">Дмитриевич</text>
+											<text id="t21" class="s13" x="85" y="62">1906 – 1976</text>
+											<text id="t22" class="s15" x="87" y="77">3-юродный</text>
+											<text id="t23" class="s15" x="91" y="92">пра(2)дед</text>
+											<g id="g9439">
+												<path id="p11" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p12" class="s12" d="M0,11 l11,-11" />
+												<path id="p13" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p15" class="s1" d="M0,0h162v101h-162Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9281" transform="translate(282,0)">
+								<path id="l140" class="s7" d="M81 173h253m8 0h1116" />
+								<g id="g9282">
+									<path id="l151" class="s6" d="M81 -12v12" />
+									<path id="l137" class="s7" d="M81 161v12" />
+									<g id="g9283" class="po" data-id="446">
+										<path id="p21" class="s0" d="M0,0h162v161h-162Z" />
+										<g id="g9441">
+											<image id="i2" xlink:href="./Хрипач.html.files/img/i2.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t30" class="s14" x="95" y="17">Хрипач</text>
+											<text id="t31" class="s14" x="96" y="32">Кузьма</text>
+											<text id="t32" class="s14" x="80" y="47">Дмитриевич</text>
+											<text id="t33" class="s13" x="88" y="62">12.10.1908</text>
+											<text id="t34" class="s13" x="88" y="77">или 1909 –</text>
+											<text id="t35" class="s13" x="105" y="92">1974</text>
+											<text id="t36" class="s15" x="87" y="107">3-юродный</text>
+											<text id="t37" class="s15" x="91" y="122">пра(2)дед</text>
+											<text id="t38" class="s13" x="92" y="137">Островки</text>
+											<text id="t39" class="s13" x="105" y="152">Бобр</text>
+											<g id="g9442">
+												<path id="p18" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p19" class="s12" d="M0,11 l11,-11" />
+												<path id="p20" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p22" class="s1" d="M0,0h162v161h-162Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9284" transform="translate(456,0)">
+								<path id="l165" class="s6" d="M164 50v171" />
+								<path id="l164" class="s7" d="M153 50h22" />
+								<g id="g9300">
+									<g id="g9301" class="po" data-id="453">
+										<path id="p26" class="s0" d="M0,0h153v100h-153Z" />
+										<g id="g9443">
+											<image id="i3" xlink:href="./Хрипач.html.files/img/i3.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t40" class="s14" x="83" y="17">Мясоедов</text>
+											<text id="t41" class="s14" x="87" y="32">Леонтий</text>
+											<text id="t42" class="s14" x="80" y="47">Корнеевич</text>
+											<text id="t43" class="s13" x="81" y="62">1911 – 1996</text>
+											<g id="g9444">
+												<path id="p23" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p24" class="s12" d="M0,11 l11,-11" />
+												<path id="p25" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p27" class="s1" d="M0,0h153v100h-153Z" />
+									</g>
+								</g>
+								<g id="g9285" transform="translate(175,0)">
+									<path id="l152" class="s6" d="M84 -12v12" />
+									<g id="g9286" class="po" data-id="449">
+										<path id="p31" class="s2" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp31">
+											<use xlink:href="#p31" />
+										</clipPath>
+										<g id="g9445" clip-path="url(#cp31)">
+											<image id="i4" xlink:href="./Хрипач.html.files/img/i4.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t44" class="s14" x="93" y="17">(Хрипач)</text>
+											<text id="t45" class="s14" x="97" y="32">Федора</text>
+											<text id="t46" class="s14" x="83" y="47">Дмитриевна</text>
+											<text id="t47" class="s13" x="88" y="62">1911 – 1946</text>
+											<text id="t48" class="s15" x="92" y="77">3-юродная</text>
+											<text id="t49" class="s15" x="80" y="92">пра(2)бабушка</text>
+											<g id="g9446">
+												<path id="p28" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p29" class="s12" d="M0,11 l11,-11" />
+												<path id="p30" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p32" class="s1" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9302" transform="translate(811,0)">
+								<g id="g9303">
+									<path id="l153" class="s6" d="M44 -12v12" />
+									<g id="g9304" class="po" data-id="272">
+										<path id="p47" class="s0" d="M0,0h89v116h-89Z" />
+										<g id="g9453">
+											<text id="t74" class="s14" x="21" y="17">Хрипач</text>
+											<text id="t75" class="s14" x="23" y="32">Филип</text>
+											<text id="t76" class="s14" x="6" y="47">Дмитриевич</text>
+											<text id="t77" class="s13" x="5" y="62">09.10.1913 – ?</text>
+											<text id="t78" class="s15" x="13" y="77">3-юродный</text>
+											<text id="t79" class="s15" x="17" y="92">пра(2)дед</text>
+											<text id="t80" class="s13" x="18" y="107">Островки</text>
+										</g>
+										<path id="p48" class="s1" d="M0,0h89v116h-89Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9305" transform="translate(912,0)">
+								<g id="g9306">
+									<path id="l154" class="s6" d="M46 -12v12" />
+									<g id="g9307" class="po" data-id="274">
+										<path id="p49" class="s2" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp49">
+											<use xlink:href="#p49" />
+										</clipPath>
+										<g id="g9454" clip-path="url(#cp49)">
+											<text id="t81" class="s14" x="18" y="17">(Хрипач)</text>
+											<text id="t82" class="s14" x="21" y="32">Татьяна</text>
+											<text id="t83" class="s14" x="8" y="47">Дмитриевна</text>
+											<text id="t84" class="s13" x="7" y="62">05.01.1916 – ?</text>
+											<text id="t85" class="s15" x="17" y="77">3-юродная</text>
+											<text id="t86" class="s15" x="5" y="92">пра(2)бабушка</text>
+											<text id="t87" class="s13" x="20" y="107">Островки</text>
+										</g>
+										<path id="p50" class="s1" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9308" transform="translate(1017,0)">
+								<g id="g9309">
+									<path id="l155" class="s6" d="M44 -12v12" />
+									<g id="g9310" class="po" data-id="273">
+										<path id="p51" class="s0" d="M0,0h89v116h-89Z" />
+										<g id="g9455">
+											<text id="t88" class="s14" x="21" y="17">Хрипач</text>
+											<text id="t89" class="s14" x="28" y="32">Иван</text>
+											<text id="t90" class="s14" x="6" y="47">Дмитриевич</text>
+											<text id="t91" class="s13" x="5" y="62">03.01.1918 – ?</text>
+											<text id="t92" class="s15" x="13" y="77">3-юродный</text>
+											<text id="t93" class="s15" x="17" y="92">пра(2)дед</text>
+											<text id="t94" class="s13" x="18" y="107">Островки</text>
+										</g>
+										<path id="p52" class="s1" d="M0,0h89v116h-89Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9311" transform="translate(1118,0)">
+								<g id="g9312">
+									<path id="l156" class="s6" d="M84 -12v12" />
+									<g id="g9313" class="po" data-id="451">
+										<path id="p56" class="s2" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp56">
+											<use xlink:href="#p56" />
+										</clipPath>
+										<g id="g9456" clip-path="url(#cp56)">
+											<image id="i9" xlink:href="./Хрипач.html.files/img/i9.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t95" class="s14" x="93" y="17">(Хрипач)</text>
+											<text id="t96" class="s14" x="106" y="32">Анна</text>
+											<text id="t97" class="s14" x="83" y="47">Дмитриевна</text>
+											<text id="t98" class="s13" x="88" y="62">1920 – 1966</text>
+											<text id="t99" class="s15" x="92" y="77">3-юродная</text>
+											<text id="t100" class="s15" x="80" y="92">пра(2)бабушка</text>
+											<g id="g9457">
+												<path id="p53" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p54" class="s12" d="M0,11 l11,-11" />
+												<path id="p55" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p57" class="s1" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9314" transform="translate(1298,0)">
+								<g id="g9315">
+									<path id="l157" class="s6" d="M81 -12v12" />
+									<g id="g9316" class="po" data-id="447">
+										<path id="p61" class="s0" d="M0,0h162v116h-162Z" />
+										<g id="g9458">
+											<image id="i10" xlink:href="./Хрипач.html.files/img/i10.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t101" class="s14" x="95" y="17">Хрипач</text>
+											<text id="t102" class="s14" x="82" y="32">Константин</text>
+											<text id="t103" class="s14" x="80" y="47">Дмитриевич</text>
+											<text id="t104" class="s13" x="100" y="62">1922 –</text>
+											<text id="t105" class="s13" x="88" y="77">26.06.1944</text>
+											<text id="t106" class="s15" x="87" y="92">3-юродный</text>
+											<text id="t107" class="s15" x="91" y="107">пра(2)дед</text>
+											<g id="g9459">
+												<path id="p58" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p59" class="s12" d="M0,11 l11,-11" />
+												<path id="p60" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p62" class="s1" d="M0,0h162v116h-162Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9317" transform="translate(1472,0)">
+								<g id="g9318">
+									<path id="l158" class="s6" d="M81 -12v12" />
+									<g id="g9319" class="po" data-id="448">
+										<path id="p66" class="s0" d="M0,0h162v101h-162Z" />
+										<g id="g9460">
+											<image id="i11" xlink:href="./Хрипач.html.files/img/i11.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t108" class="s14" x="95" y="17">Хрипач</text>
+											<text id="t109" class="s14" x="88" y="32">Геннадий</text>
+											<text id="t110" class="s14" x="80" y="47">Дмитриевич</text>
+											<text id="t111" class="s13" x="85" y="62">1925 – 1955</text>
+											<text id="t112" class="s15" x="87" y="77">3-юродный</text>
+											<text id="t113" class="s15" x="91" y="92">пра(2)дед</text>
+											<g id="g9461">
+												<path id="p63" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p64" class="s12" d="M0,11 l11,-11" />
+												<path id="p65" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p67" class="s1" d="M0,0h162v101h-162Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9275" transform="translate(40,513)">
+							<g id="g9276">
+								<g id="g9277">
+									<g id="g9278" class="po" data-id="477">
+										<path id="p16" class="s0" d="M0,0h115v101h-115Z" />
+										<g id="g9440">
+											<text id="t24" class="s14" x="34" y="17">Хрипач</text>
+											<text id="t25" class="s14" x="32" y="32">Альберт</text>
+											<text id="t26" class="s14" x="18" y="47">Дорофеевич</text>
+											<text id="t27" class="s13" x="45" y="62">? – ?</text>
+											<text id="t28" class="s15" x="5" y="77">4-юродный прадед</text>
+											<text id="t29" class="s13" x="35" y="92">Борисов</text>
+										</g>
+										<path id="p17" class="s1" d="M0,0h115v101h-115Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9287" transform="translate(364,513)">
+							<g id="g9288">
+								<path id="l169" class="s6" d="M166 50v174" />
+								<path id="l168" class="s7" d="M155 50h22" />
+								<g id="g9298">
+									<g id="g9299" class="po" data-id="455">
+										<path id="p36" class="s0" d="M0,0h155v100h-155Z" />
+										<g id="g9447">
+											<image id="i5" xlink:href="./Хрипач.html.files/img/i5.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t50" class="s14" x="90" y="17">Черный</text>
+											<text id="t51" class="s14" x="93" y="32">Виктор</text>
+											<text id="t52" class="s14" x="84" y="47">Иванович</text>
+											<text id="t53" class="s13" x="80" y="62">25.05.1931 –</text>
+											<text id="t54" class="s13" x="85" y="77">03.03.1997</text>
+											<g id="g9448">
+												<path id="p33" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p34" class="s12" d="M0,11 l11,-11" />
+												<path id="p35" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p37" class="s1" d="M0,0h155v100h-155Z" />
+									</g>
+								</g>
+								<g id="g9289" transform="translate(177,0)">
+									<g id="g9290" class="po" data-id="454">
+										<path id="p41" class="s2" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp41">
+											<use xlink:href="#p41" />
+										</clipPath>
+										<g id="g9449" clip-path="url(#cp41)">
+											<image id="i6" xlink:href="./Хрипач.html.files/img/i6.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t55" class="s14" x="94" y="17">Черная</text>
+											<text id="t56" class="s14" x="88" y="32">(Хрипач)</text>
+											<text id="t57" class="s14" x="101" y="47">Анна</text>
+											<text id="t58" class="s14" x="80" y="62">Леонтьевна</text>
+											<text id="t59" class="s13" x="82" y="77">01.10.1933 –</text>
+											<text id="t60" class="s13" x="87" y="92">14.02.2024</text>
+											<text id="t61" class="s15" x="87" y="107">4-юродная</text>
+											<text id="t62" class="s15" x="83" y="122">прабабушка</text>
+											<g id="g9450">
+												<path id="p38" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p39" class="s12" d="M0,11 l11,-11" />
+												<path id="p40" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p42" class="s1" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9291" transform="translate(363,749)">
+							<path id="l172" class="s6" d="M81 -12h172" />
+							<g id="g9292">
+								<g id="g9293">
+									<path id="l170" class="s6" d="M81 -12v12" />
+									<g id="g9294" class="po" data-id="473">
+										<path id="p43" class="s2" d="M0,10c0,-5 5,-10 10,-10h142c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-142c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp43">
+											<use xlink:href="#p43" />
+										</clipPath>
+										<g id="g9451" clip-path="url(#cp43)">
+											<image id="i7" xlink:href="./Хрипач.html.files/img/i7.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t63" class="s14" x="80" y="17">Атрашкевич</text>
+											<text id="t64" class="s14" x="90" y="32">(Черная)</text>
+											<text id="t65" class="s14" x="100" y="47">Елена</text>
+											<text id="t66" class="s14" x="81" y="62">Викторовна</text>
+											<text id="t67" class="s15" x="89" y="77">5-юродная</text>
+											<text id="t68" class="s15" x="95" y="92">бабушка</text>
+										</g>
+										<path id="p44" class="s1" d="M0,10c0,-5 5,-10 10,-10h142c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-142c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9295" transform="translate(174,0)">
+								<g id="g9296">
+									<path id="l171" class="s6" d="M79 -12v12" />
+									<g id="g9297" class="po" data-id="474">
+										<path id="p45" class="s2" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp45">
+											<use xlink:href="#p45" />
+										</clipPath>
+										<g id="g9452" clip-path="url(#cp45)">
+											<image id="i8" xlink:href="./Хрипач.html.files/img/i8.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t69" class="s14" x="89" y="17">(Черная)</text>
+											<text id="t70" class="s14" x="91" y="32">Наталья</text>
+											<text id="t71" class="s14" x="80" y="47">Викторовна</text>
+											<text id="t72" class="s15" x="87" y="62">5-юродная</text>
+											<text id="t73" class="s15" x="93" y="77">бабушка</text>
+										</g>
+										<path id="p46" class="s1" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9115" transform="translate(1656,292)">
+							<path id="l118" class="s6" d="M84 -12h2667" />
+							<g id="g9246">
+								<g id="g9247">
+									<path id="l139" class="s6" d="M84 173v48" />
+									<path id="l138" class="s7" d="M84 116v57" />
+									<path id="l114" class="s6" d="M84 -12v12" />
+									<g id="g9248" class="po" data-id="452">
+										<path id="p75" class="s2" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp75">
+											<use xlink:href="#p75" />
+										</clipPath>
+										<g id="g9464" clip-path="url(#cp75)">
+											<image id="i12" xlink:href="./Хрипач.html.files/img/i12.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t124" class="s14" x="98" y="17">Хрипач</text>
+											<text id="t125" class="s14" x="102" y="32">Дарья</text>
+											<text id="t126" class="s14" x="87" y="47">Моисеевна</text>
+											<text id="t127" class="s13" x="86" y="62">08.03.1910 –</text>
+											<text id="t128" class="s13" x="89" y="77">Около 1982</text>
+											<text id="t129" class="s15" x="92" y="92">2-юродная</text>
+											<text id="t130" class="s15" x="80" y="107">пра(2)бабушка</text>
+											<g id="g9465">
+												<path id="p72" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p73" class="s12" d="M0,11 l11,-11" />
+												<path id="p74" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p76" class="s1" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9198" transform="translate(705,0)">
+								<path id="l120" class="s6" d="M87 35v162" />
+								<path id="l119" class="s7" d="M76 35h22" />
+								<g id="g9226">
+									<g id="g9227" class="po" data-id="268">
+										<path id="p87" class="s2" d="M0,10c0,-5 5,-10 10,-10h56c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-56c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp87">
+											<use xlink:href="#p87" />
+										</clipPath>
+										<g id="g9470" clip-path="url(#cp87)">
+											<text id="t148" class="s14" x="15" y="17">Хрипач</text>
+											<text id="t149" class="s14" x="5" y="32">Екатерина</text>
+											<text id="t150" class="s14" x="8" y="47">Петровна</text>
+											<text id="t151" class="s13" x="25" y="62">? – ?</text>
+										</g>
+										<path id="p88" class="s1" d="M0,10c0,-5 5,-10 10,-10h56c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-56c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9199" transform="translate(98,0)">
+									<path id="l110" class="s6" d="M39 -12v12" />
+									<g id="g9200" class="po" data-id="251">
+										<path id="p89" class="s0" d="M0,0h79v101h-79Z" />
+										<g id="g9471">
+											<text id="t152" class="s14" x="16" y="17">Хрипач</text>
+											<text id="t153" class="s14" x="22" y="32">Ефим</text>
+											<text id="t154" class="s14" x="5" y="47">Моисеевич</text>
+											<text id="t155" class="s13" x="27" y="62">? – ?</text>
+											<text id="t156" class="s15" x="8" y="77">2-юродный</text>
+											<text id="t157" class="s15" x="12" y="92">пра(2)дед</text>
+										</g>
+										<path id="p90" class="s1" d="M0,0h79v101h-79Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9228" transform="translate(1461,0)">
+								<path id="l132" class="s6" d="M90 35v174" />
+								<path id="l131" class="s7" d="M79 35h22" />
+								<g id="g9229">
+									<path id="l111" class="s6" d="M39 -12v12" />
+									<g id="g9230" class="po" data-id="263">
+										<path id="p121" class="s0" d="M0,0h79v101h-79Z" />
+										<g id="g9485">
+											<text id="t217" class="s14" x="16" y="17">Хрипач</text>
+											<text id="t218" class="s14" x="10" y="32">Мефодий</text>
+											<text id="t219" class="s14" x="5" y="47">Моисеевич</text>
+											<text id="t220" class="s13" x="27" y="62">? – ?</text>
+											<text id="t221" class="s15" x="8" y="77">2-юродный</text>
+											<text id="t222" class="s15" x="12" y="92">пра(2)дед</text>
+										</g>
+										<path id="p122" class="s1" d="M0,0h79v101h-79Z" />
+									</g>
+								</g>
+								<g id="g9241" transform="translate(101,0)">
+									<g id="g9242" class="po" data-id="264">
+										<path id="p123" class="s2" d="M0,10c0,-5 5,-10 10,-10h61c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-61c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp123">
+											<use xlink:href="#p123" />
+										</clipPath>
+										<g id="g9486" clip-path="url(#cp123)">
+											<text id="t223" class="s14" x="17" y="17">Хрипач</text>
+											<text id="t224" class="s14" x="7" y="32">Екатерина</text>
+											<text id="t225" class="s14" x="5" y="47">Мироновна</text>
+											<text id="t226" class="s13" x="28" y="62">? – ?</text>
+										</g>
+										<path id="p124" class="s1" d="M0,10c0,-5 5,-10 10,-10h61c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-61c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9243" transform="translate(1655,0)">
+								<g id="g9244">
+									<path id="l112" class="s6" d="M46 -12v12" />
+									<g id="g9245" class="po" data-id="424">
+										<path id="p131" class="s2" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp131">
+											<use xlink:href="#p131" />
+										</clipPath>
+										<g id="g9490" clip-path="url(#cp131)">
+											<text id="t247" class="s14" x="18" y="17">(Хрипач)</text>
+											<text id="t248" class="s14" x="21" y="32">Евгения</text>
+											<text id="t249" class="s14" x="12" y="47">Моисеевна</text>
+											<text id="t250" class="s13" x="7" y="62">24.12.1897 – ?</text>
+											<text id="t251" class="s15" x="17" y="77">2-юродная</text>
+											<text id="t252" class="s15" x="5" y="92">пра(2)бабушка</text>
+										</g>
+										<path id="p132" class="s1" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9116" transform="translate(2227,0)">
+								<path id="l66" class="s6" d="M90 43v166" />
+								<path id="l65" class="s7" d="M79 43h22" />
+								<g id="g9117">
+									<path id="l113" class="s6" d="M39 -12v12" />
+									<g id="g9118" class="po" data-id="53">
+										<path id="p133" class="s0" d="M0,0h79v86h-79Z" />
+										<g id="g9491">
+											<text id="t253" class="s14" x="16" y="17">Хрипач</text>
+											<text id="t254" class="s14" x="21" y="32">Устин</text>
+											<text id="t255" class="s14" x="5" y="47">Моисеевич</text>
+											<text id="t256" class="s13" x="27" y="62">? – ?</text>
+											<text id="t257" class="s15" x="11" y="77">Пра(2)дед</text>
+										</g>
+										<path id="p134" class="s1" d="M0,0h79v86h-79Z" />
+									</g>
+								</g>
+								<g id="g9324" transform="translate(101,0)">
+									<g id="g9325" class="po" data-id="262">
+										<path id="p135" class="s2" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp135">
+											<use xlink:href="#p135" />
+										</clipPath>
+										<g id="g9492" clip-path="url(#cp135)">
+											<text id="t258" class="s14" x="24" y="17">Хрипач</text>
+											<text id="t259" class="s14" x="26" y="32">Мария</text>
+											<text id="t260" class="s14" x="14" y="47">Сергеевна</text>
+											<text id="t261" class="s13" x="34" y="62">? – ?</text>
+											<text id="t262" class="s15" x="5" y="77">Пра(2)бабушка</text>
+										</g>
+										<path id="p136" class="s1" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9255" transform="translate(2434,0)">
+								<g id="g9256">
+									<path id="l115" class="s6" d="M77 -12v12" />
+									<g id="g9257" class="po" data-id="471">
+										<path id="p213" class="s0" d="M0,0h154v101h-154Z" />
+										<g id="g9526">
+											<image id="i34" xlink:href="./Хрипач.html.files/img/i34.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t401" class="s14" x="91" y="17">Хрипач</text>
+											<text id="t402" class="s14" x="96" y="32">Борис</text>
+											<text id="t403" class="s14" x="80" y="47">Моисеевич</text>
+											<text id="t404" class="s13" x="91" y="62">? – 1930</text>
+											<text id="t405" class="s15" x="83" y="77">2-юродный</text>
+											<text id="t406" class="s15" x="87" y="92">пра(2)дед</text>
+											<g id="g9527">
+												<path id="p210" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p211" class="s12" d="M0,11 l11,-11" />
+												<path id="p212" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p214" class="s1" d="M0,0h154v101h-154Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9258" transform="translate(2600,0)">
+								<g id="g9259">
+									<path id="l116" class="s6" d="M46 -12v12" />
+									<g id="g9260" class="po" data-id="472">
+										<path id="p215" class="s2" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp215">
+											<use xlink:href="#p215" />
+										</clipPath>
+										<g id="g9528" clip-path="url(#cp215)">
+											<text id="t407" class="s14" x="18" y="17">(Хрипач)</text>
+											<text id="t408" class="s14" x="27" y="32">Ванда</text>
+											<text id="t409" class="s14" x="12" y="47">Моисеевна</text>
+											<text id="t410" class="s13" x="34" y="62">? – ?</text>
+											<text id="t411" class="s15" x="17" y="77">2-юродная</text>
+											<text id="t412" class="s15" x="5" y="92">пра(2)бабушка</text>
+										</g>
+										<path id="p216" class="s1" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9261" transform="translate(2705,0)">
+								<g id="g9262">
+									<path id="l117" class="s6" d="M46 -12v12" />
+									<g id="g9263" class="po" data-id="481">
+										<path id="p217" class="s2" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp217">
+											<use xlink:href="#p217" />
+										</clipPath>
+										<g id="g9529" clip-path="url(#cp217)">
+											<text id="t413" class="s14" x="18" y="17">(Хрипач)</text>
+											<text id="t414" class="s14" x="28" y="32">Елена</text>
+											<text id="t415" class="s14" x="12" y="47">Моисеевна</text>
+											<text id="t416" class="s13" x="34" y="62">? – ?</text>
+											<text id="t417" class="s15" x="17" y="77">2-юродная</text>
+											<text id="t418" class="s15" x="5" y="92">пра(2)бабушка</text>
+										</g>
+										<path id="p218" class="s1" d="M0,10c0,-5 5,-10 10,-10h73c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-73c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9249" transform="translate(1472,513)">
+							<g id="g9250">
+								<path id="l143" class="s7" d="M162 50h22" />
+								<g id="g9253">
+									<g id="g9254" class="po" data-id="475">
+										<path id="p80" class="s0" d="M0,0h162v101h-162Z" />
+										<g id="g9466">
+											<image id="i13" xlink:href="./Хрипач.html.files/img/i13.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t131" class="s14" x="95" y="17">Осипов</text>
+											<text id="t132" class="s14" x="85" y="32">Александр</text>
+											<text id="t133" class="s14" x="80" y="47">Кириллович</text>
+											<text id="t134" class="s13" x="83" y="62">19.07.1929 –</text>
+											<text id="t135" class="s13" x="88" y="77">28.01.1978</text>
+											<text id="t136" class="s13" x="96" y="92">Борисов</text>
+											<g id="g9467">
+												<path id="p77" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p78" class="s12" d="M0,11 l11,-11" />
+												<path id="p79" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p81" class="s1" d="M0,0h162v101h-162Z" />
+									</g>
+								</g>
+								<g id="g9251" transform="translate(184,0)">
+									<g id="g9252" class="po" data-id="456">
+										<path id="p85" class="s2" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v156c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp85">
+											<use xlink:href="#p85" />
+										</clipPath>
+										<g id="g9468" clip-path="url(#cp85)">
+											<image id="i14" xlink:href="./Хрипач.html.files/img/i14.png" x="0" y="0" width="75" height="100" />
+											<text id="t137" class="s14" x="95" y="17">Осипова</text>
+											<text id="t138" class="s14" x="93" y="32">(Хрипач)</text>
+											<text id="t139" class="s14" x="91" y="47">Людмила</text>
+											<text id="t140" class="s14" x="80" y="62">Кузьминична</text>
+											<text id="t141" class="s13" x="86" y="77">15.10.1934 –</text>
+											<text id="t142" class="s13" x="91" y="92">20.03.2006</text>
+											<text id="t143" class="s15" x="92" y="107">3-юродная</text>
+											<text id="t144" class="s15" x="86" y="122">прабабушка,</text>
+											<text id="t145" class="s15" x="92" y="137">4-юродная</text>
+											<text id="t146" class="s15" x="88" y="152">прабабушка</text>
+											<text id="t147" class="s13" x="99" y="167">Борисов</text>
+											<g id="g9469">
+												<path id="p82" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p83" class="s12" d="M0,11 l11,-11" />
+												<path id="p84" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p86" class="s1" d="M0,10c0,-5 5,-10 10,-10h148c5,0 10,5 10,10v156c0,5 -5,10 -10,10h-148c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9201" transform="translate(1846,513)">
+							<path id="l127" class="s6" d="M57 -24h1090" />
+							<g id="g9202">
+								<g id="g9203">
+									<path id="l121" class="s6" d="M57 -24v24" />
+									<g id="g9204" class="po" data-id="459">
+										<path id="p91" class="s0" d="M0,0h115v86h-115Z" />
+										<g id="g9472">
+											<text id="t158" class="s14" x="34" y="17">Хрипач</text>
+											<text id="t159" class="s14" x="34" y="32">Ларион</text>
+											<text id="t160" class="s14" x="25" y="47">Ефимович</text>
+											<text id="t161" class="s13" x="16" y="62">1905 – 12.1944</text>
+											<text id="t162" class="s15" x="5" y="77">3-юродный прадед</text>
+										</g>
+										<path id="p92" class="s1" d="M0,0h115v86h-115Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9205" transform="translate(127,0)">
+								<path id="l128" class="s7" d="M150 50h22" />
+								<g id="g9206">
+									<path id="l122" class="s6" d="M75 -24v24" />
+									<g id="g9207" class="po" data-id="462">
+										<path id="p96" class="s0" d="M0,0h150v116h-150Z" />
+										<g id="g9473">
+											<image id="i15" xlink:href="./Хрипач.html.files/img/i15.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t163" class="s14" x="89" y="17">Хрипач</text>
+											<text id="t164" class="s14" x="94" y="32">Исаак</text>
+											<text id="t165" class="s14" x="80" y="47">Ефимович</text>
+											<text id="t166" class="s13" x="94" y="62">1912 –</text>
+											<text id="t167" class="s13" x="91" y="77">09.1944</text>
+											<text id="t168" class="s15" x="81" y="92">3-юродный</text>
+											<text id="t169" class="s15" x="93" y="107">прадед</text>
+											<g id="g9474">
+												<path id="p93" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p94" class="s12" d="M0,11 l11,-11" />
+												<path id="p95" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p97" class="s1" d="M0,0h150v116h-150Z" />
+									</g>
+								</g>
+								<g id="g9208" transform="translate(172,0)">
+									<path id="l227" class="s6" d="M78 -9v9" />
+									<g id="g9209" class="po" data-id="463">
+										<path id="p101" class="s2" d="M0,10c0,-5 5,-10 10,-10h136c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-136c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp101">
+											<use xlink:href="#p101" />
+										</clipPath>
+										<g id="g9475" clip-path="url(#cp101)">
+											<image id="i16" xlink:href="./Хрипач.html.files/img/i16.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t170" class="s14" x="92" y="17">Хрипач</text>
+											<text id="t171" class="s14" x="87" y="32">(Хрипач)</text>
+											<text id="t172" class="s14" x="89" y="47">Варвара</text>
+											<text id="t173" class="s14" x="80" y="62">Филиповна</text>
+											<text id="t174" class="s13" x="80" y="77">17.12.1913 –</text>
+											<text id="t175" class="s13" x="85" y="92">26.03.2007</text>
+											<g id="g9476">
+												<path id="p98" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p99" class="s12" d="M0,11 l11,-11" />
+												<path id="p100" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p102" class="s1" d="M0,10c0,-5 5,-10 10,-10h136c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-136c-5,0 -10,-5 -10,-10Z" />
+									</g>
+									<rect id="rect0" class="s8" x="75" y="-15" width="6" height="6" />
+								</g>
+							</g>
+							<g id="g9210" transform="translate(467,0)">
+								<path id="l129" class="s7" d="M155 43h22" />
+								<g id="g9211">
+									<path id="l123" class="s6" d="M77 -24v24" />
+									<g id="g9212" class="po" data-id="270">
+										<path id="p106" class="s0" d="M0,0h155v131h-155Z" />
+										<g id="g9477">
+											<image id="i17" xlink:href="./Хрипач.html.files/img/i17.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t176" class="s14" x="92" y="17">Хрипач</text>
+											<text id="t177" class="s14" x="88" y="32">Емельян</text>
+											<text id="t178" class="s14" x="82" y="47">Ефимович</text>
+											<text id="t179" class="s13" x="80" y="62">04.08.1914 –</text>
+											<text id="t180" class="s13" x="85" y="77">13.12.1989</text>
+											<text id="t181" class="s15" x="84" y="92">3-юродный</text>
+											<text id="t182" class="s15" x="95" y="107">прадед</text>
+											<text id="t183" class="s13" x="89" y="122">Островки</text>
+											<g id="g9478">
+												<path id="p103" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p104" class="s12" d="M0,11 l11,-11" />
+												<path id="p105" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p107" class="s1" d="M0,0h155v131h-155Z" />
+									</g>
+								</g>
+								<g id="g9213" transform="translate(177,0)">
+									<g id="g9214" class="po" data-id="460">
+										<path id="p108" class="s2" d="M0,10c0,-5 5,-10 10,-10h60c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-60c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp108">
+											<use xlink:href="#p108" />
+										</clipPath>
+										<g id="g9479" clip-path="url(#cp108)">
+											<text id="t184" class="s14" x="17" y="17">Хрипач</text>
+											<text id="t185" class="s14" x="13" y="32">Зинаида</text>
+											<text id="t186" class="s14" x="10" y="47">Петровна</text>
+											<text id="t187" class="s13" x="5" y="62">23.03.1925 –</text>
+											<text id="t188" class="s13" x="10" y="77">06.02.2014</text>
+										</g>
+										<path id="p109" class="s1" d="M0,10c0,-5 5,-10 10,-10h60c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-60c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9215" transform="translate(736,0)">
+								<g id="g9216">
+									<path id="l124" class="s6" d="M44 -24v24" />
+									<g id="g9217" class="po" data-id="269">
+										<path id="p110" class="s2" d="M0,10c0,-5 5,-10 10,-10h69c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-69c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp110">
+											<use xlink:href="#p110" />
+										</clipPath>
+										<g id="g9480" clip-path="url(#cp110)">
+											<text id="t189" class="s14" x="16" y="17">(Хрипач)</text>
+											<text id="t190" class="s14" x="26" y="32">Ольга</text>
+											<text id="t191" class="s14" x="12" y="47">Ефимовна</text>
+											<text id="t192" class="s13" x="5" y="62">02.01.1918 – ?</text>
+											<text id="t193" class="s15" x="15" y="77">3-юродная</text>
+											<text id="t194" class="s15" x="11" y="92">прабабушка</text>
+											<text id="t195" class="s13" x="18" y="107">Островки</text>
+										</g>
+										<path id="p111" class="s1" d="M0,10c0,-5 5,-10 10,-10h69c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-69c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9218" transform="translate(837,0)">
+								<path id="l130" class="s7" d="M155 43h22" />
+								<g id="g9219">
+									<path id="l125" class="s6" d="M77 -24v24" />
+									<g id="g9220" class="po" data-id="252">
+										<path id="p115" class="s0" d="M0,0h155v146h-155Z" />
+										<g id="g9481">
+											<image id="i18" xlink:href="./Хрипач.html.files/img/i18.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t196" class="s14" x="92" y="17">Хрипач</text>
+											<text id="t197" class="s14" x="93" y="32">Степан</text>
+											<text id="t198" class="s14" x="82" y="47">Ефимович</text>
+											<text id="t199" class="s13" x="80" y="62">21.03.1921 –</text>
+											<text id="t200" class="s13" x="102" y="77">1990</text>
+											<text id="t201" class="s15" x="84" y="92">3-юродный</text>
+											<text id="t202" class="s15" x="95" y="107">прадед</text>
+											<text id="t203" class="s13" x="89" y="122">Островки</text>
+											<text id="t204" class="s13" x="85" y="137">Ленинград</text>
+											<g id="g9482">
+												<path id="p112" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p113" class="s12" d="M0,11 l11,-11" />
+												<path id="p114" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p116" class="s1" d="M0,0h155v146h-155Z" />
+									</g>
+								</g>
+								<g id="g9221" transform="translate(177,0)">
+									<g id="g9222" class="po" data-id="461">
+										<path id="p117" class="s2" d="M0,10c0,-5 5,-10 10,-10h63c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-63c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp117">
+											<use xlink:href="#p117" />
+										</clipPath>
+										<g id="g9483" clip-path="url(#cp117)">
+											<text id="t205" class="s14" x="5" y="17">(Смирнова)</text>
+											<text id="t206" class="s14" x="30" y="32">Зоя</text>
+											<text id="t207" class="s14" x="11" y="47">Ивановна</text>
+											<text id="t208" class="s13" x="29" y="62">? – ?</text>
+											<text id="t209" class="s13" x="12" y="77">Ленинград</text>
+										</g>
+										<path id="p118" class="s1" d="M0,10c0,-5 5,-10 10,-10h63c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-63c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9223" transform="translate(1109,0)">
+								<g id="g9224">
+									<path id="l126" class="s6" d="M38 -24v24" />
+									<g id="g9225" class="po" data-id="458">
+										<path id="p119" class="s2" d="M0,10c0,-5 5,-10 10,-10h57c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-57c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp119">
+											<use xlink:href="#p119" />
+										</clipPath>
+										<g id="g9484" clip-path="url(#cp119)">
+											<text id="t210" class="s14" x="13" y="17">Гапеева</text>
+											<text id="t211" class="s14" x="10" y="32">(Хрипач)</text>
+											<text id="t212" class="s14" x="12" y="47">Наталья</text>
+											<text id="t213" class="s14" x="6" y="62">Ефимовна</text>
+											<text id="t214" class="s13" x="15" y="77">1925 – ?</text>
+											<text id="t215" class="s15" x="9" y="92">3-юродная</text>
+											<text id="t216" class="s15" x="5" y="107">прабабушка</text>
+										</g>
+										<path id="p120" class="s1" d="M0,10c0,-5 5,-10 10,-10h57c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-57c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9231" transform="translate(3054,513)">
+							<path id="l136" class="s6" d="M45 -12h216" />
+							<g id="g9232">
+								<g id="g9233">
+									<path id="l133" class="s6" d="M45 -12v12" />
+									<g id="g9234" class="po" data-id="265">
+										<path id="p125" class="s2" d="M0,10c0,-5 5,-10 10,-10h70c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-70c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp125">
+											<use xlink:href="#p125" />
+										</clipPath>
+										<g id="g9487" clip-path="url(#cp125)">
+											<text id="t227" class="s14" x="16" y="17">(Хрипач)</text>
+											<text id="t228" class="s14" x="19" y="32">Варвара</text>
+											<text id="t229" class="s14" x="5" y="47">Мефодьевна</text>
+											<text id="t230" class="s13" x="5" y="62">01.12.1912 – ?</text>
+											<text id="t231" class="s15" x="15" y="77">3-юродная</text>
+											<text id="t232" class="s15" x="11" y="92">прабабушка</text>
+											<text id="t233" class="s13" x="19" y="107">Островки</text>
+										</g>
+										<path id="p126" class="s1" d="M0,10c0,-5 5,-10 10,-10h70c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-70c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9235" transform="translate(102,0)">
+								<g id="g9236">
+									<path id="l134" class="s6" d="M45 -12v12" />
+									<g id="g9237" class="po" data-id="266">
+										<path id="p127" class="s2" d="M0,10c0,-5 5,-10 10,-10h70c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-70c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp127">
+											<use xlink:href="#p127" />
+										</clipPath>
+										<g id="g9488" clip-path="url(#cp127)">
+											<text id="t234" class="s14" x="16" y="17">(Хрипач)</text>
+											<text id="t235" class="s14" x="14" y="32">Феодосия</text>
+											<text id="t236" class="s14" x="5" y="47">Мефодьевна</text>
+											<text id="t237" class="s13" x="5" y="62">24.05.1914 – ?</text>
+											<text id="t238" class="s15" x="15" y="77">3-юродная</text>
+											<text id="t239" class="s15" x="11" y="92">прабабушка</text>
+											<text id="t240" class="s13" x="19" y="107">Островки</text>
+										</g>
+										<path id="p128" class="s1" d="M0,10c0,-5 5,-10 10,-10h70c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-70c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9238" transform="translate(204,0)">
+								<g id="g9239">
+									<path id="l135" class="s6" d="M57 -12v12" />
+									<g id="g9240" class="po" data-id="267">
+										<path id="p129" class="s0" d="M0,0h115v101h-115Z" />
+										<g id="g9489">
+											<text id="t241" class="s14" x="34" y="17">Хрипач</text>
+											<text id="t242" class="s14" x="38" y="32">Павел</text>
+											<text id="t243" class="s14" x="17" y="47">Мефодьевич</text>
+											<text id="t244" class="s13" x="18" y="62">11.12.1916 – ?</text>
+											<text id="t245" class="s15" x="5" y="77">3-юродный прадед</text>
+											<text id="t246" class="s13" x="31" y="92">Островки</text>
+										</g>
+										<path id="p130" class="s1" d="M0,0h115v101h-115Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9021" transform="translate(3395,513)">
+							<path id="l74" class="s6" d="M75 -12h1007" />
+							<g id="g9119">
+								<g id="g9120">
+									<path id="l68" class="s6" d="M75 -12v12" />
+									<g id="g9121" class="po" data-id="99">
+										<path id="p137" class="s0" d="M0,0h151v116h-151Z" />
+										<g id="g9493">
+											<image id="i19" xlink:href="./Хрипач.html.files/img/i19.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t263" class="s13" x="99" y="17">[тел]</text>
+											<text id="t264" class="s14" x="90" y="32">Хрипач</text>
+											<text id="t265" class="s14" x="91" y="47">Виктор</text>
+											<text id="t266" class="s14" x="80" y="62">Устинович</text>
+											<text id="t267" class="s15" x="82" y="77">2-юродный</text>
+											<text id="t268" class="s15" x="93" y="92">прадед</text>
+											<text id="t269" class="s13" x="86" y="107">Цукурино</text>
+										</g>
+										<path id="p138" class="s1" d="M0,0h151v116h-151Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9122" transform="translate(163,0)">
+								<g id="g9123">
+									<path id="l69" class="s6" d="M44 -12v12" />
+									<g id="g9124" class="po" data-id="445">
+										<path id="p139" class="s2" d="M0,10c0,-5 5,-10 10,-10h69c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-69c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp139">
+											<use xlink:href="#p139" />
+										</clipPath>
+										<g id="g9494" clip-path="url(#cp139)">
+											<text id="t270" class="s14" x="16" y="17">(Хрипач)</text>
+											<text id="t271" class="s14" x="11" y="32">Екатерина</text>
+											<text id="t272" class="s14" x="11" y="47">Устиновна</text>
+											<text id="t273" class="s13" x="5" y="62">17.11.1912 – ?</text>
+											<text id="t274" class="s15" x="15" y="77">2-юродная</text>
+											<text id="t275" class="s15" x="11" y="92">прабабушка</text>
+										</g>
+										<path id="p140" class="s1" d="M0,10c0,-5 5,-10 10,-10h69c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-69c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9125" transform="translate(264,0)">
+								<g id="g9126">
+									<path id="l70" class="s6" d="M96 -12v12" />
+									<g id="g9127" class="po" data-id="212">
+										<path id="p144" class="s0" d="M0,0h193v116h-193Z" />
+										<g id="g9495">
+											<image id="i20" xlink:href="./Хрипач.html.files/img/i20.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t276" class="s13" x="120" y="17">[тел]</text>
+											<text id="t277" class="s14" x="111" y="32">Хрипач</text>
+											<text id="t278" class="s14" x="114" y="47">Фёдор</text>
+											<text id="t279" class="s14" x="101" y="62">Устинович</text>
+											<text id="t280" class="s13" x="80" y="77">Предположительно</text>
+											<text id="t281" class="s13" x="94" y="92">25.12.1913 – ?</text>
+											<text id="t282" class="s15" x="81" y="107">2-юродный прадед</text>
+											<g id="g9496">
+												<path id="p141" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p142" class="s12" d="M0,11 l11,-11" />
+												<path id="p143" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p145" class="s1" d="M0,0h193v116h-193Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9128" transform="translate(469,0)">
+								<g id="g9129">
+									<path id="l71" class="s6" d="M59 -12v12" />
+									<g id="g9130" class="po" data-id="421">
+										<path id="p146" class="s0" d="M0,0h118v101h-118Z" />
+										<g id="g9497">
+											<text id="t283" class="s14" x="36" y="17">Хрипач</text>
+											<text id="t284" class="s14" x="25" y="32">Лаврентий</text>
+											<text id="t285" class="s14" x="26" y="47">Устинович</text>
+											<text id="t286" class="s13" x="5" y="62">Предположительно</text>
+											<text id="t287" class="s13" x="29" y="77">27.01.1917</text>
+											<text id="t288" class="s15" x="6" y="92">2-юродный прадед</text>
+										</g>
+										<path id="p147" class="s1" d="M0,0h118v101h-118Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9131" transform="translate(599,0)">
+								<path id="l92" class="s6" d="M235 20v204" />
+								<path id="l91" class="s7" d="M224 20h22" />
+								<path id="l76" class="s6" d="M53 20v204" />
+								<path id="l75" class="s7" d="M42 20h22" />
+								<g id="g9161">
+									<g id="g9162" class="po" data-id="420">
+										<path id="p148" class="s0" d="M0,0h42v41h-42Z" />
+										<g id="g9498">
+											<text id="t289" class="s14" x="5" y="17">Иван</text>
+											<text id="t290" class="s13" x="8" y="32">? – ?</text>
+										</g>
+										<path id="p149" class="s1" d="M0,0h42v41h-42Z" />
+									</g>
+								</g>
+								<g id="g9132" transform="translate(64,0)">
+									<path id="l72" class="s6" d="M80 -12v12" />
+									<g id="g9133" class="po" data-id="244">
+										<path id="p153" class="s2" d="M0,10c0,-5 5,-10 10,-10h140c5,0 10,5 10,10v156c0,5 -5,10 -10,10h-140c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp153">
+											<use xlink:href="#p153" />
+										</clipPath>
+										<g id="g9499" clip-path="url(#cp153)">
+											<image id="i21" xlink:href="./Хрипач.html.files/img/i21.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t291" class="s13" x="103" y="17">[тел]</text>
+											<text id="t292" class="s14" x="80" y="32">Булавицкая</text>
+											<text id="t293" class="s14" x="89" y="47">(Хрипач)</text>
+											<text id="t294" class="s14" x="101" y="62">Нина</text>
+											<text id="t295" class="s14" x="84" y="77">Устиновна</text>
+											<text id="t296" class="s13" x="82" y="92">01.07.1923 –</text>
+											<text id="t297" class="s13" x="87" y="107">21.03.2017</text>
+											<text id="t298" class="s15" x="88" y="122">2-юродная</text>
+											<text id="t299" class="s15" x="84" y="137">прабабушка</text>
+											<text id="t300" class="s13" x="91" y="152">Островки</text>
+											<text id="t301" class="s13" x="96" y="167">Болюто</text>
+											<g id="g9500">
+												<path id="p150" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p151" class="s12" d="M0,11 l11,-11" />
+												<path id="p152" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p154" class="s1" d="M0,10c0,-5 5,-10 10,-10h140c5,0 10,5 10,10v156c0,5 -5,10 -10,10h-140c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9189" transform="translate(246,0)">
+									<g id="g9190" class="po" data-id="350">
+										<path id="p155" class="s0" d="M0,0h59v41h-59Z" />
+										<g id="g9501">
+											<text id="t302" class="s14" x="5" y="17">Михаил</text>
+											<text id="t303" class="s13" x="17" y="32">? – ?</text>
+										</g>
+										<path id="p156" class="s1" d="M0,0h59v41h-59Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9191" transform="translate(916,0)">
+								<g id="g9192">
+									<path id="l73" class="s6" d="M38 -12v12" />
+									<g id="g9193" class="po" data-id="413">
+										<path id="p203" class="s2" d="M0,10c0,-5 5,-10 10,-10h57c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-57c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp203">
+											<use xlink:href="#p203" />
+										</clipPath>
+										<g id="g9523" clip-path="url(#cp203)">
+											<text id="t389" class="s14" x="10" y="17">(Хрипач)</text>
+											<text id="t390" class="s14" x="12" y="32">Зинаида</text>
+											<text id="t391" class="s14" x="5" y="47">Устиновна</text>
+											<text id="t392" class="s15" x="9" y="62">2-юродная</text>
+											<text id="t393" class="s15" x="5" y="77">прабабушка</text>
+										</g>
+										<path id="p204" class="s1" d="M0,10c0,-5 5,-10 10,-10h57c5,0 10,5 10,10v66c0,5 -5,10 -10,10h-57c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9022" transform="translate(1005,0)">
+								<path id="l10" class="s6" d="M1384 58v154" />
+								<path id="l9" class="s7" d="M155 58h2459" />
+								<g id="g9023">
+									<path id="l67" class="s6" d="M77 -12v12" />
+									<g id="g9024" class="po" data-id="30">
+										<path id="p208" class="s0" d="M0,0h155v116h-155Z" />
+										<g id="g9524">
+											<image id="i33" xlink:href="./Хрипач.html.files/img/i33.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t394" class="s14" x="92" y="17">Хрипач</text>
+											<text id="t395" class="s14" x="89" y="32">Алексей</text>
+											<text id="t396" class="s14" x="82" y="47">Устинович</text>
+											<text id="t397" class="s13" x="80" y="62">14.03.1911 –</text>
+											<text id="t398" class="s13" x="85" y="77">30.09.1960</text>
+											<text id="t399" class="s15" x="94" y="92">Прадед</text>
+											<text id="t400" class="s13" x="89" y="107">Островки</text>
+											<g id="g9525">
+												<path id="p205" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p206" class="s12" d="M0,11 l11,-11" />
+												<path id="p207" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p209" class="s1" d="M0,0h155v116h-155Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9134" transform="translate(3547,749)">
+							<path id="l94" class="s6" d="M682 -12h232" />
+							<path id="l79" class="s6" d="M269 -12h280" />
+							<g id="g9135">
+								<path id="l81" class="s6" d="M173 50v144" />
+								<path id="l80" class="s7" d="M162 50h22" />
+								<g id="g9145">
+									<g id="g9146" class="po" data-id="407">
+										<path id="p160" class="s0" d="M0,0h162v100h-162Z" />
+										<g id="g9502">
+											<image id="i22" xlink:href="./Хрипач.html.files/img/i22.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t304" class="s14" x="84" y="17">Семеньков</text>
+											<text id="t305" class="s14" x="96" y="32">Виктор</text>
+											<text id="t306" class="s14" x="80" y="47">Демьянович</text>
+											<text id="t307" class="s13" x="83" y="62">17.03.1938 –</text>
+											<text id="t308" class="s13" x="88" y="77">09.01.1985</text>
+											<g id="g9503">
+												<path id="p157" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p158" class="s12" d="M0,11 l11,-11" />
+												<path id="p159" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p161" class="s1" d="M0,0h162v100h-162Z" />
+									</g>
+								</g>
+								<g id="g9136" transform="translate(184,0)">
+									<path id="l77" class="s6" d="M85 -12v12" />
+									<g id="g9137" class="po" data-id="354">
+										<path id="p165" class="s2" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp165">
+											<use xlink:href="#p165" />
+										</clipPath>
+										<g id="g9504" clip-path="url(#cp165)">
+											<image id="i23" xlink:href="./Хрипач.html.files/img/i23.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t309" class="s14" x="85" y="17">Семенькова</text>
+											<text id="t310" class="s14" x="80" y="32">(Булавицкая)</text>
+											<text id="t311" class="s14" x="112" y="47">Зоя</text>
+											<text id="t312" class="s14" x="92" y="62">Ивановна</text>
+											<text id="t313" class="s13" x="88" y="77">15.08.1942 –</text>
+											<text id="t314" class="s13" x="93" y="92">23.03.2025</text>
+											<text id="t315" class="s15" x="93" y="107">3-юродная</text>
+											<text id="t316" class="s15" x="99" y="122">бабушка</text>
+											<g id="g9505">
+												<path id="p162" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p163" class="s12" d="M0,11 l11,-11" />
+												<path id="p164" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p166" class="s1" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9147" transform="translate(464,0)">
+								<path id="l86" class="s6" d="M182 50v144" />
+								<path id="l85" class="s7" d="M171 50h22" />
+								<g id="g9148">
+									<path id="l78" class="s6" d="M85 -12v12" />
+									<g id="g9149" class="po" data-id="353">
+										<path id="p174" class="s2" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp174">
+											<use xlink:href="#p174" />
+										</clipPath>
+										<g id="g9508" clip-path="url(#cp174)">
+											<image id="i26" xlink:href="./Хрипач.html.files/img/i26.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t327" class="s14" x="96" y="17">Павлова</text>
+											<text id="t328" class="s14" x="80" y="32">(Булавицкая)</text>
+											<text id="t329" class="s14" x="100" y="47">Галина</text>
+											<text id="t330" class="s14" x="92" y="62">Ивановна</text>
+											<text id="t331" class="s13" x="88" y="77">01.01.1945 –</text>
+											<text id="t332" class="s13" x="93" y="92">11.03.2022</text>
+											<text id="t333" class="s15" x="93" y="107">3-юродная</text>
+											<text id="t334" class="s15" x="99" y="122">бабушка</text>
+											<g id="g9509">
+												<path id="p171" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p172" class="s12" d="M0,11 l11,-11" />
+												<path id="p173" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p175" class="s1" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9159" transform="translate(193,0)">
+									<g id="g9160" class="po" data-id="422">
+										<path id="p179" class="s0" d="M0,0h159v100h-159Z" />
+										<g id="g9510">
+											<image id="i27" xlink:href="./Хрипач.html.files/img/i27.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t335" class="s14" x="94" y="17">Павлов</text>
+											<text id="t336" class="s14" x="92" y="32">Михаил</text>
+											<text id="t337" class="s14" x="80" y="47">Васильевич</text>
+											<text id="t338" class="s13" x="82" y="62">04.11.1941 –</text>
+											<text id="t339" class="s13" x="87" y="77">15.06.2013</text>
+											<g id="g9511">
+												<path id="p176" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p177" class="s12" d="M0,11 l11,-11" />
+												<path id="p178" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p180" class="s1" d="M0,0h159v100h-159Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9163" transform="translate(832,0)">
+								<path id="l96" class="s6" d="M175 50v144" />
+								<path id="l95" class="s7" d="M164 50h22" />
+								<g id="g9164">
+									<path id="l93" class="s6" d="M82 -12v12" />
+									<g id="g9165" class="po" data-id="351">
+										<path id="p187" class="s0" d="M0,0h164v146h-164Z" />
+										<g id="g9515">
+											<image id="i31" xlink:href="./Хрипач.html.files/img/i31.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t350" class="s13" x="105" y="17">[тел]</text>
+											<text id="t351" class="s14" x="81" y="32">Булавицкий</text>
+											<text id="t352" class="s14" x="97" y="47">Виктор</text>
+											<text id="t353" class="s14" x="80" y="62">Михайлович</text>
+											<text id="t354" class="s13" x="89" y="77">29.08.1954</text>
+											<text id="t355" class="s15" x="88" y="92">3-юродный</text>
+											<text id="t356" class="s15" x="109" y="107">дед</text>
+											<text id="t357" class="s13" x="102" y="122">Минск</text>
+											<text id="t358" class="s13" x="83" y="137">Новолукомль</text>
+										</g>
+										<path id="p188" class="s1" d="M0,0h164v146h-164Z" />
+									</g>
+								</g>
+								<g id="g9187" transform="translate(186,0)">
+									<g id="g9188" class="po" data-id="352">
+										<path id="p189" class="s2" d="M0,10c0,-5 5,-10 10,-10h140c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-140c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp189">
+											<use xlink:href="#p189" />
+										</clipPath>
+										<g id="g9516" clip-path="url(#cp189)">
+											<image id="i32" xlink:href="./Хрипач.html.files/img/i32.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t359" class="s14" x="80" y="17">Булавицкая</text>
+											<text id="t360" class="s14" x="85" y="32">(Близнец)</text>
+											<text id="t361" class="s14" x="99" y="47">Елена</text>
+											<text id="t362" class="s13" x="87" y="62">09.04.1956</text>
+											<text id="t363" class="s13" x="101" y="77">Борки</text>
+											<text id="t364" class="s13" x="81" y="92">Новолукомль</text>
+										</g>
+										<path id="p190" class="s1" d="M0,10c0,-5 5,-10 10,-10h140c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-140c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9138" transform="translate(3553,955)">
+							<path id="l84" class="s6" d="M79 -12h177" />
+							<g id="g9139">
+								<g id="g9140">
+									<path id="l82" class="s6" d="M79 -12v12" />
+									<g id="g9141" class="po" data-id="403">
+										<path id="p167" class="s0" d="M0,0h159v100h-159Z" />
+										<g id="g9506">
+											<image id="i24" xlink:href="./Хрипач.html.files/img/i24.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t317" class="s14" x="83" y="17">Семеньков</text>
+											<text id="t318" class="s14" x="95" y="32">Сергей</text>
+											<text id="t319" class="s14" x="80" y="47">Викторович</text>
+											<text id="t320" class="s15" x="86" y="62">3-юродный</text>
+											<text id="t321" class="s15" x="104" y="77">дядя</text>
+										</g>
+										<path id="p168" class="s1" d="M0,0h159v100h-159Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9142" transform="translate(171,0)">
+								<g id="g9143">
+									<path id="l83" class="s6" d="M85 -12v12" />
+									<g id="g9144" class="po" data-id="404">
+										<path id="p169" class="s2" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp169">
+											<use xlink:href="#p169" />
+										</clipPath>
+										<g id="g9507" clip-path="url(#cp169)">
+											<image id="i25" xlink:href="./Хрипач.html.files/img/i25.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t322" class="s14" x="80" y="17">(Семенькова)</text>
+											<text id="t323" class="s14" x="93" y="32">Светлана</text>
+											<text id="t324" class="s14" x="86" y="47">Викторовна</text>
+											<text id="t325" class="s15" x="93" y="62">3-юродная</text>
+											<text id="t326" class="s15" x="111" y="77">тётя</text>
+										</g>
+										<path id="p170" class="s1" d="M0,10c0,-5 5,-10 10,-10h151c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-151c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9150" transform="translate(3917,955)">
+							<path id="l89" class="s6" d="M189 -12h175" />
+							<g id="g9151">
+								<path id="l90" class="s7" d="M85 50h22" />
+								<g id="g9154">
+									<g id="g9155" class="po" data-id="423">
+										<path id="p181" class="s2" d="M0,10c0,-5 5,-10 10,-10h65c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-65c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp181">
+											<use xlink:href="#p181" />
+										</clipPath>
+										<g id="g9512" clip-path="url(#cp181)">
+											<image id="i28" xlink:href="./Хрипач.html.files/img/i28.jpeg" x="0" y="0" width="75" height="100" />
+										</g>
+										<path id="p182" class="s1" d="M0,10c0,-5 5,-10 10,-10h65c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-65c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9152" transform="translate(107,0)">
+									<path id="l87" class="s6" d="M82 -12v12" />
+									<g id="g9153" class="po" data-id="401">
+										<path id="p183" class="s0" d="M0,0h164v100h-164Z" />
+										<g id="g9513">
+											<image id="i29" xlink:href="./Хрипач.html.files/img/i29.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t340" class="s14" x="96" y="17">Павлов</text>
+											<text id="t341" class="s14" x="93" y="32">Виталий</text>
+											<text id="t342" class="s14" x="80" y="47">Михайлович</text>
+											<text id="t343" class="s15" x="88" y="62">3-юродный</text>
+											<text id="t344" class="s15" x="106" y="77">дядя</text>
+										</g>
+										<path id="p184" class="s1" d="M0,0h164v100h-164Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9156" transform="translate(283,0)">
+								<g id="g9157">
+									<path id="l88" class="s6" d="M81 -12v12" />
+									<g id="g9158" class="po" data-id="402">
+										<path id="p185" class="s2" d="M0,10c0,-5 5,-10 10,-10h143c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-143c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp185">
+											<use xlink:href="#p185" />
+										</clipPath>
+										<g id="g9514" clip-path="url(#cp185)">
+											<image id="i30" xlink:href="./Хрипач.html.files/img/i30.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t345" class="s14" x="87" y="17">(Павлова)</text>
+											<text id="t346" class="s14" x="93" y="32">Наталья</text>
+											<text id="t347" class="s14" x="80" y="47">Михайловна</text>
+											<text id="t348" class="s15" x="89" y="62">3-юродная</text>
+											<text id="t349" class="s15" x="107" y="77">тётя</text>
+										</g>
+										<path id="p186" class="s1" d="M0,10c0,-5 5,-10 10,-10h143c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-143c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9166" transform="translate(4385,955)">
+							<path id="l99" class="s6" d="M51 -12h236" />
+							<g id="g9167">
+								<g id="g9168">
+									<path id="l100" class="s6" d="M51 71v93" />
+									<path id="l97" class="s6" d="M51 -12v12" />
+									<g id="g9169" class="po" data-id="414">
+										<path id="p191" class="s0" d="M0,0h102v71h-102Z" />
+										<g id="g9517">
+											<text id="t365" class="s14" x="13" y="17">Булавицкий</text>
+											<text id="t366" class="s14" x="25" y="32">Алексей</text>
+											<text id="t367" class="s14" x="14" y="47">Викторович</text>
+											<text id="t368" class="s15" x="5" y="62">3-юродный дядя</text>
+										</g>
+										<path id="p192" class="s1" d="M0,0h102v71h-102Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9177" transform="translate(236,0)">
+								<g id="g9178">
+									<path id="l104" class="s6" d="M51 71v93" />
+									<path id="l98" class="s6" d="M51 -12v12" />
+									<g id="g9179" class="po" data-id="415">
+										<path id="p197" class="s0" d="M0,0h102v71h-102Z" />
+										<g id="g9520">
+											<text id="t377" class="s14" x="13" y="17">Булавицкий</text>
+											<text id="t378" class="s14" x="27" y="32">Максим</text>
+											<text id="t379" class="s14" x="14" y="47">Викторович</text>
+											<text id="t380" class="s15" x="5" y="62">3-юродный дядя</text>
+										</g>
+										<path id="p198" class="s1" d="M0,0h102v71h-102Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9170" transform="translate(4330,1131)">
+							<path id="l103" class="s6" d="M50 -12h113" />
+							<g id="g9171">
+								<g id="g9172">
+									<path id="l101" class="s6" d="M50 -12v12" />
+									<g id="g9173" class="po" data-id="418">
+										<path id="p193" class="s0" d="M0,0h101v71h-101Z" />
+										<g id="g9518">
+											<text id="t369" class="s14" x="12" y="17">Булавицкий</text>
+											<text id="t370" class="s14" x="26" y="32">Михаил</text>
+											<text id="t371" class="s14" x="13" y="47">Алексеевич</text>
+											<text id="t372" class="s15" x="5" y="62">4-юродный брат</text>
+										</g>
+										<path id="p194" class="s1" d="M0,0h101v71h-101Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9174" transform="translate(113,0)">
+								<g id="g9175">
+									<path id="l102" class="s6" d="M50 -12v12" />
+									<g id="g9176" class="po" data-id="419">
+										<path id="p195" class="s0" d="M0,0h101v71h-101Z" />
+										<g id="g9519">
+											<text id="t373" class="s14" x="12" y="17">Булавицкий</text>
+											<text id="t374" class="s14" x="22" y="32">Дмитрий</text>
+											<text id="t375" class="s14" x="13" y="47">Алексеевич</text>
+											<text id="t376" class="s15" x="5" y="62">4-юродный брат</text>
+										</g>
+										<path id="p196" class="s1" d="M0,0h101v71h-101Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9180" transform="translate(4566,1131)">
+							<path id="l107" class="s6" d="M50 -12h113" />
+							<g id="g9181">
+								<g id="g9182">
+									<path id="l105" class="s6" d="M50 -12v12" />
+									<g id="g9183" class="po" data-id="416">
+										<path id="p199" class="s0" d="M0,0h101v71h-101Z" />
+										<g id="g9521">
+											<text id="t381" class="s14" x="12" y="17">Булавицкий</text>
+											<text id="t382" class="s14" x="28" y="32">Никита</text>
+											<text id="t383" class="s14" x="11" y="47">Максимович</text>
+											<text id="t384" class="s15" x="5" y="62">4-юродный брат</text>
+										</g>
+										<path id="p200" class="s1" d="M0,0h101v71h-101Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9184" transform="translate(113,0)">
+								<g id="g9185">
+									<path id="l106" class="s6" d="M50 -12v12" />
+									<g id="g9186" class="po" data-id="417">
+										<path id="p201" class="s0" d="M0,0h101v71h-101Z" />
+										<g id="g9522">
+											<text id="t385" class="s14" x="12" y="17">Булавицкий</text>
+											<text id="t386" class="s14" x="27" y="32">Данила</text>
+											<text id="t387" class="s14" x="11" y="47">Максимович</text>
+											<text id="t388" class="s15" x="5" y="62">4-юродный брат</text>
+										</g>
+										<path id="p202" class="s1" d="M0,0h101v71h-101Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9017" transform="translate(4747,749)">
+							<path id="l17" class="s6" d="M171 -24h1984" />
+							<g id="g9025">
+								<path id="l22" class="s7" d="M251 20h22" />
+								<path id="l19" class="s6" d="M81 28v178" />
+								<path id="l18" class="s7" d="M70 28h22" />
+								<g id="g9032">
+									<g id="g9033" class="po" data-id="228">
+										<path id="p219" class="s2" d="M0,10c0,-5 5,-10 10,-10h50c5,0 10,5 10,10v36c0,5 -5,10 -10,10h-50c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp219">
+											<use xlink:href="#p219" />
+										</clipPath>
+										<g id="g9530" clip-path="url(#cp219)">
+											<text id="t419" class="s14" x="12" y="17">Хрипач</text>
+											<text id="t420" class="s14" x="8" y="32">Зинаида</text>
+											<text id="t421" class="s13" x="5" y="47">Хаританцы</text>
+										</g>
+										<path id="p220" class="s1" d="M0,10c0,-5 5,-10 10,-10h50c5,0 10,5 10,10v36c0,5 -5,10 -10,10h-50c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9026" transform="translate(92,0)">
+									<path id="l11" class="s6" d="M79 -24v24" />
+									<g id="g9027" class="po" data-id="33">
+										<path id="p224" class="s0" d="M0,0h159v101h-159Z" />
+										<g id="g9531">
+											<image id="i35" xlink:href="./Хрипач.html.files/img/i35.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t422" class="s14" x="94" y="17">Хрипач</text>
+											<text id="t423" class="s14" x="93" y="32">Леонид</text>
+											<text id="t424" class="s14" x="80" y="47">Алексеевич</text>
+											<text id="t425" class="s13" x="84" y="62">1937 – 2006</text>
+											<text id="t426" class="s15" x="86" y="77">2-юродный</text>
+											<text id="t427" class="s15" x="107" y="92">дед</text>
+											<g id="g9532">
+												<path id="p221" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p222" class="s12" d="M0,11 l11,-11" />
+												<path id="p223" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p225" class="s1" d="M0,0h159v101h-159Z" />
+									</g>
+								</g>
+								<g id="g9034" transform="translate(273,0)">
+									<path id="l23" class="s6" d="M31 41v153" />
+									<g id="g9035" class="po" data-id="412">
+										<path id="p226" class="s2" d="M0,10c0,-5 5,-10 10,-10h43c5,0 10,5 10,10v21c0,5 -5,10 -10,10h-43c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp226">
+											<use xlink:href="#p226" />
+										</clipPath>
+										<g id="g9533" clip-path="url(#cp226)">
+											<text id="t428" class="s14" x="8" y="17">Хрипач</text>
+											<text id="t429" class="s14" x="5" y="32">Зинаида</text>
+										</g>
+										<path id="p227" class="s1" d="M0,10c0,-5 5,-10 10,-10h43c5,0 10,5 10,10v21c0,5 -5,10 -10,10h-43c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9042" transform="translate(348,0)">
+								<path id="l43" class="s7" d="M259 158h86m8 0h233" />
+								<path id="l37" class="s6" d="M349 50v156" />
+								<path id="l36" class="s7" d="M338 50h22" />
+								<path id="l28" class="s6" d="M169 50v156" />
+								<path id="l27" class="s7" d="M158 50h22" />
+								<g id="g9058">
+									<g id="g9059" class="po" data-id="213">
+										<path id="p237" class="s0" d="M0,0h158v100h-158Z" />
+										<g id="g9537">
+											<image id="i36" xlink:href="./Хрипач.html.files/img/i36.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t435" class="s14" x="91" y="17">Гурский</text>
+											<text id="t436" class="s14" x="86" y="32">Анатолий</text>
+											<text id="t437" class="s13" x="104" y="47">? – ?</text>
+											<text id="t438" class="s13" x="80" y="62">Новолукомль</text>
+											<g id="g9538">
+												<path id="p234" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p235" class="s12" d="M0,11 l11,-11" />
+												<path id="p236" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p238" class="s1" d="M0,0h158v100h-158Z" />
+									</g>
+								</g>
+								<g id="g9043" transform="translate(180,0)">
+									<path id="l42" class="s7" d="M79 131v27" />
+									<path id="l12" class="s6" d="M79 -24v24" />
+									<g id="g9044" class="po" data-id="60">
+										<path id="p239" class="s2" d="M0,10c0,-5 5,-10 10,-10h138c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-138c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp239">
+											<use xlink:href="#p239" />
+										</clipPath>
+										<g id="g9539" clip-path="url(#cp239)">
+											<image id="i37" xlink:href="./Хрипач.html.files/img/i37.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t439" class="s14" x="92" y="17">Гурская</text>
+											<text id="t440" class="s14" x="88" y="32">(Хрипач)</text>
+											<text id="t441" class="s14" x="86" y="47">Антонина</text>
+											<text id="t442" class="s14" x="80" y="62">Алексеевна</text>
+											<text id="t443" class="s13" x="103" y="77">1939</text>
+											<text id="t444" class="s15" x="87" y="92">2-юродная</text>
+											<text id="t445" class="s15" x="93" y="107">бабушка</text>
+											<text id="t446" class="s13" x="80" y="122">Новолукомль</text>
+										</g>
+										<path id="p240" class="s1" d="M0,10c0,-5 5,-10 10,-10h138c5,0 10,5 10,10v111c0,5 -5,10 -10,10h-138c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9065" transform="translate(360,0)">
+									<g id="g9066" class="po" data-id="408">
+										<path id="p241" class="s0" d="M0,0h157v100h-157Z" />
+										<g id="g9540">
+											<image id="i38" xlink:href="./Хрипач.html.files/img/i38.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t447" class="s14" x="87" y="17">Дешовий</text>
+											<text id="t448" class="s14" x="100" y="32">Иван</text>
+											<text id="t449" class="s14" x="80" y="47">Филипович</text>
+										</g>
+										<path id="p242" class="s1" d="M0,0h157v100h-157Z" />
+									</g>
+								</g>
+								<g id="g9067" transform="translate(539,0)">
+									<path id="l41" class="s7" d="M47 41v117" />
+									<g id="g9068" class="po" data-id="410">
+										<path id="p243" class="s0" d="M0,0h94v41h-94Z" />
+										<g id="g9541">
+											<text id="t450" class="s14" x="33" y="17">Жук</text>
+											<text id="t451" class="s14" x="5" y="32">Афанасьевич</text>
+										</g>
+										<path id="p244" class="s1" d="M0,0h94v41h-94Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9018" transform="translate(1011,0)">
+								<path id="l6" class="s6" d="M190 58v148" />
+								<path id="l5" class="s7" d="M159 58h63" />
+								<g id="g9019">
+									<path id="l13" class="s6" d="M79 -24v24" />
+									<g id="g9020" class="po" data-id="5">
+										<path id="p260" class="s0" d="M0,0h159v116h-159Z" />
+										<g id="g9548">
+											<image id="i41" xlink:href="./Хрипач.html.files/img/i41.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t478" class="s14" x="94" y="17">Хрипач</text>
+											<text id="t479" class="s14" x="83" y="32">Александр</text>
+											<text id="t480" class="s14" x="80" y="47">Алексеевич</text>
+											<text id="t481" class="s13" x="82" y="62">15.07.1943 –</text>
+											<text id="t482" class="s13" x="87" y="77">27.04.2014</text>
+											<text id="t483" class="s15" x="106" y="92">Дед</text>
+											<text id="t484" class="s13" x="91" y="107">Островки</text>
+											<g id="g9549">
+												<path id="p257" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p258" class="s12" d="M0,11 l11,-11" />
+												<path id="p259" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p261" class="s1" d="M0,0h159v116h-159Z" />
+									</g>
+								</g>
+								<g id="g9429" transform="translate(222,0)">
+									<path id="l231" class="s6" d="M75 -9v9" />
+									<g id="g9430" class="po" data-id="6">
+										<path id="p262" class="s2" d="M0,10c0,-5 5,-10 10,-10h131c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-131c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp262">
+											<use xlink:href="#p262" />
+										</clipPath>
+										<g id="g9550" clip-path="url(#cp262)">
+											<image id="i42" xlink:href="./Хрипач.html.files/img/i42.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t485" class="s14" x="90" y="17">Хрипач</text>
+											<text id="t486" class="s14" x="81" y="32">(Хоровец)</text>
+											<text id="t487" class="s14" x="80" y="47">Екатерина</text>
+											<text id="t488" class="s14" x="82" y="62">Ивановна</text>
+											<text id="t489" class="s13" x="83" y="77">13.01.1942</text>
+											<text id="t490" class="s15" x="89" y="92">Бабушка</text>
+											<text id="t491" class="s13" x="91" y="107">Валище</text>
+										</g>
+										<path id="p263" class="s1" d="M0,10c0,-5 5,-10 10,-10h131c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-131c-5,0 -10,-5 -10,-10Z" />
+									</g>
+									<rect id="rect2" class="s8" x="72" y="-15" width="6" height="6" />
+								</g>
+								<g id="g9610" transform="translate(163,39)">
+									<text id="t771" class="s5" x="0" y="11">06.05.1971</text>
+								</g>
+							</g>
+							<g id="g9069" transform="translate(1396,0)">
+								<path id="l45" class="s6" d="M167 50v156" />
+								<path id="l44" class="s7" d="M156 50h22" />
+								<g id="g9078">
+									<g id="g9079" class="po" data-id="107">
+										<path id="p272" class="s0" d="M0,0h156v100h-156Z" />
+										<g id="g9555">
+											<image id="i47" xlink:href="./Хрипач.html.files/img/i47.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t516" class="s14" x="93" y="17">Севрук</text>
+											<text id="t517" class="s14" x="93" y="32">Виктор</text>
+											<text id="t518" class="s14" x="80" y="47">Иосифович</text>
+										</g>
+										<path id="p273" class="s1" d="M0,0h156v100h-156Z" />
+									</g>
+								</g>
+								<g id="g9070" transform="translate(178,0)">
+									<path id="l14" class="s6" d="M79 -24v24" />
+									<g id="g9071" class="po" data-id="32">
+										<path id="p277" class="s2" d="M0,10c0,-5 5,-10 10,-10h138c5,0 10,5 10,10v126c0,5 -5,10 -10,10h-138c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp277">
+											<use xlink:href="#p277" />
+										</clipPath>
+										<g id="g9556" clip-path="url(#cp277)">
+											<image id="i48" xlink:href="./Хрипач.html.files/img/i48.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t519" class="s14" x="94" y="17">Севрук</text>
+											<text id="t520" class="s14" x="88" y="32">(Хрипач)</text>
+											<text id="t521" class="s14" x="100" y="47">Нина</text>
+											<text id="t522" class="s14" x="80" y="62">Алексеевна</text>
+											<text id="t523" class="s13" x="81" y="77">11.03.1950 –</text>
+											<text id="t524" class="s13" x="86" y="92">03.06.2026</text>
+											<text id="t525" class="s15" x="87" y="107">2-юродная</text>
+											<text id="t526" class="s15" x="93" y="122">бабушка</text>
+											<text id="t527" class="s13" x="99" y="137">Минск</text>
+											<g id="g9557">
+												<path id="p274" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p275" class="s12" d="M0,11 l11,-11" />
+												<path id="p276" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p278" class="s1" d="M0,10c0,-5 5,-10 10,-10h138c5,0 10,5 10,10v126c0,5 -5,10 -10,10h-138c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9080" transform="translate(1744,0)">
+								<g id="g9081">
+									<path id="l15" class="s6" d="M47 -24v24" />
+									<g id="g9082" class="po" data-id="113">
+										<path id="p283" class="s0" d="M0,0h95v86h-95Z" />
+										<g id="g9560">
+											<text id="t538" class="s14" x="24" y="17">Хрипач</text>
+											<text id="t539" class="s14" x="23" y="32">Михаил</text>
+											<text id="t540" class="s14" x="10" y="47">Алексеевич</text>
+											<text id="t541" class="s13" x="35" y="62">? – ?</text>
+											<text id="t542" class="s15" x="5" y="77">2-юродный дед</text>
+										</g>
+										<path id="p284" class="s1" d="M0,0h95v86h-95Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9083" transform="translate(2076,0)">
+								<path id="l50" class="s6" d="M170 50v144" />
+								<path id="l49" class="s7" d="M159 50h22" />
+								<g id="g9084">
+									<path id="l16" class="s6" d="M79 -24v24" />
+									<g id="g9085" class="po" data-id="34">
+										<path id="p285" class="s0" d="M0,0h159v116h-159Z" />
+										<g id="g9561">
+											<image id="i51" xlink:href="./Хрипач.html.files/img/i51.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t543" class="s14" x="94" y="17">Хрипач</text>
+											<text id="t544" class="s14" x="85" y="32">Владимир</text>
+											<text id="t545" class="s14" x="80" y="47">Алексеевич</text>
+											<text id="t546" class="s13" x="87" y="62">04.08.1952</text>
+											<text id="t547" class="s15" x="86" y="77">2-юродный</text>
+											<text id="t548" class="s15" x="107" y="92">дед</text>
+											<text id="t549" class="s13" x="92" y="107">Чашники</text>
+										</g>
+										<path id="p286" class="s1" d="M0,0h159v116h-159Z" />
+									</g>
+								</g>
+								<g id="g9113" transform="translate(181,0)">
+									<g id="g9114" class="po" data-id="112">
+										<path id="p287" class="s2" d="M0,10c0,-5 5,-10 10,-10h125c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-125c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp287">
+											<use xlink:href="#p287" />
+										</clipPath>
+										<g id="g9562" clip-path="url(#cp287)">
+											<image id="i52" xlink:href="./Хрипач.html.files/img/i52.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t550" class="s14" x="87" y="17">Хрипач</text>
+											<text id="t551" class="s14" x="80" y="32">(Шанько)</text>
+											<text id="t552" class="s14" x="87" y="47">Лариса</text>
+											<text id="t553" class="s13" x="80" y="62">11.06.1959</text>
+											<text id="t554" class="s13" x="85" y="77">Чашники</text>
+										</g>
+										<path id="p288" class="s1" d="M0,10c0,-5 5,-10 10,-10h125c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-125c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9028" transform="translate(4777,955)">
+							<path id="l26" class="s6" d="M144 -12h130" />
+							<g id="g9029">
+								<g id="g9030">
+									<g id="g9031" class="po" data-id="411">
+										<path id="p228" class="s0" d="M0,0h102v56h-102Z" />
+										<g id="g9534">
+											<text id="t430" class="s14" x="28" y="17">Хрипач</text>
+											<text id="t431" class="s14" x="12" y="32">Леонидович</text>
+											<text id="t432" class="s15" x="5" y="47">2-юродный дядя</text>
+										</g>
+										<path id="p229" class="s1" d="M0,0h102v56h-102Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9036" transform="translate(114,0)">
+								<g id="g9037">
+									<path id="l24" class="s6" d="M30 -12v12" />
+									<g id="g9038" class="po" data-id="439">
+										<path id="p230" class="s0" d="M0,0h61v35h-61Z" />
+										<g id="g9535">
+											<text id="t433" class="s14" x="5" y="17">Виктор?</text>
+										</g>
+										<path id="p231" class="s1" d="M0,0h61v35h-61Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9039" transform="translate(187,0)">
+								<g id="g9040">
+									<path id="l25" class="s6" d="M34 -12v12" />
+									<g id="g9041" class="po" data-id="440">
+										<path id="p232" class="s2" d="M0,10c0,-5 5,-10 10,-10h49c5,0 10,5 10,10v15c0,5 -5,10 -10,10h-49c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp232">
+											<use xlink:href="#p232" />
+										</clipPath>
+										<g id="g9536" clip-path="url(#cp232)">
+											<text id="t434" class="s14" x="5" y="17">Светлана</text>
+										</g>
+										<path id="p233" class="s1" d="M0,10c0,-5 5,-10 10,-10h49c5,0 10,5 10,10v15c0,5 -5,10 -10,10h-49c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9045" transform="translate(5186,955)">
+							<g id="g9046">
+								<g id="g9047">
+									<path id="l31" class="s6" d="M83 101v63" />
+									<g id="g9048" class="po" data-id="111">
+										<path id="p245" class="s0" d="M0,0h166v101h-166Z" />
+										<g id="g9542">
+											<image id="i39" xlink:href="./Хрипач.html.files/img/i39.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t452" class="s14" x="95" y="17">Гурский</text>
+											<text id="t453" class="s14" x="87" y="32">Александр</text>
+											<text id="t454" class="s14" x="80" y="47">Анатольевич</text>
+											<text id="t455" class="s15" x="89" y="62">2-юродный</text>
+											<text id="t456" class="s15" x="107" y="77">дядя</text>
+											<text id="t457" class="s13" x="102" y="92">Россия</text>
+										</g>
+										<path id="p246" class="s1" d="M0,0h166v101h-166Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9060" transform="translate(178,0)">
+								<path id="l40" class="s7" d="M153 28h22" />
+								<g id="g9061">
+									<g id="g9062" class="po" data-id="93">
+										<path id="p253" class="s2" d="M0,10c0,-5 5,-10 10,-10h133c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-133c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp253">
+											<use xlink:href="#p253" />
+										</clipPath>
+										<g id="g9546" clip-path="url(#cp253)">
+											<image id="i40" xlink:href="./Хрипач.html.files/img/i40.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t469" class="s14" x="81" y="17">Зеленская</text>
+											<text id="t470" class="s14" x="80" y="32">(Дешовия)</text>
+											<text id="t471" class="s14" x="94" y="47">Ирина</text>
+											<text id="t472" class="s14" x="83" y="62">Ивановна</text>
+											<text id="t473" class="s15" x="84" y="77">2-юродная</text>
+											<text id="t474" class="s15" x="102" y="92">тётя</text>
+										</g>
+										<path id="p254" class="s1" d="M0,10c0,-5 5,-10 10,-10h133c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-133c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9063" transform="translate(175,0)">
+									<g id="g9064" class="po" data-id="405">
+										<path id="p255" class="s0" d="M0,0h87v56h-87Z" />
+										<g id="g9547">
+											<text id="t475" class="s14" x="10" y="17">Зеленский</text>
+											<text id="t476" class="s14" x="25" y="32">Игорь</text>
+											<text id="t477" class="s14" x="5" y="47">Леонидович</text>
+										</g>
+										<path id="p256" class="s1" d="M0,0h87v56h-87Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9049" transform="translate(5049,1131)">
+							<path id="l34" class="s6" d="M160 -12h120" />
+							<g id="g9050">
+								<path id="l35" class="s7" d="M84 28h22" />
+								<g id="g9053">
+									<g id="g9054" class="po" data-id="406">
+										<path id="p247" class="s0" d="M0,0h84v56h-84Z" />
+										<g id="g9543">
+											<text id="t458" class="s14" x="10" y="17">Тимофеев</text>
+											<text id="t459" class="s14" x="18" y="32">Даниил</text>
+											<text id="t460" class="s14" x="5" y="47">Валерьевич</text>
+										</g>
+										<path id="p248" class="s1" d="M0,0h84v56h-84Z" />
+									</g>
+								</g>
+								<g id="g9051" transform="translate(106,0)">
+									<path id="l32" class="s6" d="M54 -12v12" />
+									<g id="g9052" class="po" data-id="208">
+										<path id="p249" class="s2" d="M0,10c0,-5 5,-10 10,-10h89c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-89c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp249">
+											<use xlink:href="#p249" />
+										</clipPath>
+										<g id="g9544" clip-path="url(#cp249)">
+											<text id="t461" class="s14" x="24" y="17">(Гурская)</text>
+											<text id="t462" class="s14" x="21" y="32">Маргарита</text>
+											<text id="t463" class="s14" x="6" y="47">Александровна</text>
+											<text id="t464" class="s15" x="5" y="62">3-юродная сестра</text>
+										</g>
+										<path id="p250" class="s1" d="M0,10c0,-5 5,-10 10,-10h89c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-89c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9055" transform="translate(227,0)">
+								<g id="g9056">
+									<path id="l33" class="s6" d="M53 -12v12" />
+									<g id="g9057" class="po" data-id="223">
+										<path id="p251" class="s0" d="M0,0h107v71h-107Z" />
+										<g id="g9545">
+											<text id="t465" class="s14" x="28" y="17">Гурский</text>
+											<text id="t466" class="s14" x="25" y="32">Тимофей</text>
+											<text id="t467" class="s14" x="5" y="47">Александрович</text>
+											<text id="t468" class="s15" x="8" y="62">3-юродный брат</text>
+										</g>
+										<path id="p252" class="s1" d="M0,0h107v71h-107Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9010" transform="translate(5648,955)">
+							<g id="g9011">
+								<path id="l1" class="s6" d="M177 50v114" />
+								<path id="l0" class="s7" d="M146 50h63" />
+								<g id="g9431">
+									<path id="l229" class="s6" d="M73 -9v9" />
+									<g id="g9432" class="po" data-id="2">
+										<path id="p264" class="s0" d="M0,0h146v101h-146Z" />
+										<g id="g9551">
+											<image id="i43" xlink:href="./Хрипач.html.files/img/i43.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t492" class="s14" x="84" y="17">Дубовик</text>
+											<text id="t493" class="s14" x="86" y="32">Михаил</text>
+											<text id="t494" class="s14" x="80" y="47">Иванович</text>
+											<text id="t495" class="s13" x="80" y="62">05.09.1971</text>
+											<text id="t496" class="s15" x="97" y="77">Отец</text>
+											<text id="t497" class="s13" x="93" y="92">Минск</text>
+										</g>
+										<path id="p265" class="s1" d="M0,0h146v101h-146Z" />
+									</g>
+									<rect id="rect1" class="s8" x="70" y="-15" width="6" height="6" />
+								</g>
+								<g id="g9012" transform="translate(209,0)">
+									<g id="g9013" class="po" data-id="3">
+										<path id="p266" class="s2" d="M0,10c0,-5 5,-10 10,-10h162c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-162c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp266">
+											<use xlink:href="#p266" />
+										</clipPath>
+										<g id="g9552" clip-path="url(#cp266)">
+											<image id="i44" xlink:href="./Хрипач.html.files/img/i44.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t498" class="s14" x="102" y="17">Дубовик</text>
+											<text id="t499" class="s14" x="100" y="32">(Хрипач)</text>
+											<text id="t500" class="s14" x="102" y="47">Наталья</text>
+											<text id="t501" class="s14" x="80" y="62">Александровна</text>
+											<text id="t502" class="s13" x="98" y="77">26.10.1971</text>
+											<text id="t503" class="s15" x="115" y="92">Мать</text>
+											<text id="t504" class="s13" x="111" y="107">Минск</text>
+										</g>
+										<path id="p267" class="s1" d="M0,10c0,-5 5,-10 10,-10h162c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-162c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9609" transform="translate(150,31)">
+									<text id="t770" class="s5" x="0" y="11">10.10.1992</text>
+								</g>
+							</g>
+						</g>
+						<g id="g9006" transform="translate(5655,1131)">
+							<path id="l4" class="s6" d="M82 -12h176" />
+							<g id="g9007">
+								<g id="g9008">
+									<path id="l2" class="s6" d="M82 -12v12" />
+									<g id="g9009" class="po" data-id="4">
+										<path id="p268" class="s4" d="M0,0h164v100h-164Z" />
+										<g id="g9553">
+											<image id="i45" xlink:href="./Хрипач.html.files/img/i45.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t505" class="s14" x="93" y="17">Дубовик</text>
+											<text id="t506" class="s14" x="103" y="32">Иван</text>
+											<text id="t507" class="s14" x="80" y="47">Михайлович</text>
+											<text id="t508" class="s13" x="89" y="62">26.06.1993</text>
+											<text id="t509" class="s13" x="102" y="77">Минск</text>
+										</g>
+										<path id="p269" class="s1" d="M0,0h164v100h-164Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9014" transform="translate(176,0)">
+								<g id="g9015">
+									<path id="l3" class="s6" d="M82 -12v12" />
+									<g id="g9016" class="po" data-id="1">
+										<path id="p270" class="s0" d="M0,0h164v101h-164Z" />
+										<g id="g9554">
+											<image id="i46" xlink:href="./Хрипач.html.files/img/i46.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t510" class="s14" x="93" y="17">Дубовик</text>
+											<text id="t511" class="s14" x="93" y="32">Савелий</text>
+											<text id="t512" class="s14" x="80" y="47">Михайлович</text>
+											<text id="t513" class="s13" x="89" y="62">04.08.2002</text>
+											<text id="t514" class="s15" x="106" y="77">Брат</text>
+											<text id="t515" class="s13" x="102" y="92">Минск</text>
+										</g>
+										<path id="p271" class="s1" d="M0,0h164v101h-164Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9072" transform="translate(6233,955)">
+							<g id="g9073">
+								<path id="l48" class="s7" d="M155 50h22" />
+								<g id="g9074">
+									<g id="g9075" class="po" data-id="106">
+										<path id="p279" class="s0" d="M0,0h155v116h-155Z" />
+										<g id="g9558">
+											<image id="i49" xlink:href="./Хрипач.html.files/img/i49.jpeg" x="0" y="0" width="71" height="100" />
+											<text id="t528" class="s14" x="91" y="17">Севрук</text>
+											<text id="t529" class="s14" x="85" y="32">Дмитрий</text>
+											<text id="t530" class="s14" x="76" y="47">Викторович</text>
+											<text id="t531" class="s13" x="83" y="62">29.10.1976</text>
+											<text id="t532" class="s15" x="82" y="77">2-юродный</text>
+											<text id="t533" class="s15" x="100" y="92">дядя</text>
+											<text id="t534" class="s13" x="96" y="107">Минск</text>
+										</g>
+										<path id="p280" class="s1" d="M0,0h155v116h-155Z" />
+									</g>
+								</g>
+								<g id="g9076" transform="translate(177,0)">
+									<g id="g9077" class="po" data-id="225">
+										<path id="p281" class="s2" d="M0,10c0,-5 5,-10 10,-10h125c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-125c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp281">
+											<use xlink:href="#p281" />
+										</clipPath>
+										<g id="g9559" clip-path="url(#cp281)">
+											<image id="i50" xlink:href="./Хрипач.html.files/img/i50.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t535" class="s14" x="88" y="17">Севрук</text>
+											<text id="t536" class="s14" x="80" y="32">Виктория</text>
+											<text id="t537" class="s13" x="93" y="47">Минск</text>
+										</g>
+										<path id="p282" class="s1" d="M0,10c0,-5 5,-10 10,-10h125c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-125c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9086" transform="translate(6577,955)">
+							<path id="l53" class="s6" d="M279 -12h274" />
+							<g id="g9087">
+								<path id="l59" class="s7" d="M368 28h22" />
+								<path id="l55" class="s6" d="M174 52v112" />
+								<path id="l54" class="s7 da" d="M159 50h31" />
+								<g id="g9097">
+									<g id="g9098" class="po" data-id="348">
+										<path id="p289" class="s2" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp289">
+											<use xlink:href="#p289" />
+										</clipPath>
+										<g id="g9563" clip-path="url(#cp289)">
+											<image id="i53" xlink:href="./Хрипач.html.files/img/i53.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t555" class="s14" x="80" y="17">(Давыдова)</text>
+											<text id="t556" class="s14" x="102" y="32">Вита</text>
+											<text id="t557" class="s13" x="87" y="47">30.01.1981</text>
+											<text id="t558" class="s13" x="92" y="62">Чашники</text>
+										</g>
+										<path id="p290" class="s1" d="M0,10c0,-5 5,-10 10,-10h139c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-139c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9088" transform="translate(190,0)">
+									<path id="l51" class="s6" d="M89 -12v12" />
+									<g id="g9089" class="po" data-id="196">
+										<path id="p291" class="s0" d="M0,0h178v101h-178Z" />
+										<g id="g9564">
+											<image id="i54" xlink:href="./Хрипач.html.files/img/i54.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t559" class="s14" x="103" y="17">Хрипач</text>
+											<text id="t560" class="s14" x="102" y="32">Максим</text>
+											<text id="t561" class="s14" x="80" y="47">Владимирович</text>
+											<text id="t562" class="s13" x="96" y="62">02.08.1980</text>
+											<text id="t563" class="s15" x="80" y="77">2-юродный дядя</text>
+											<text id="t564" class="s13" x="113" y="92">Клин</text>
+										</g>
+										<path id="p292" class="s1" d="M0,0h178v101h-178Z" />
+									</g>
+								</g>
+								<g id="g9099" transform="translate(390,0)">
+									<g id="g9100" class="po" data-id="409">
+										<path id="p293" class="s2" d="M0,10c0,-5 5,-10 10,-10h42c5,0 10,5 10,10v36c0,5 -5,10 -10,10h-42c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp293">
+											<use xlink:href="#p293" />
+										</clipPath>
+										<g id="g9565" clip-path="url(#cp293)">
+											<text id="t565" class="s14" x="8" y="17">Хрипач</text>
+											<text id="t566" class="s14" x="7" y="32">(Стена)</text>
+											<text id="t567" class="s14" x="5" y="47">Наталья</text>
+										</g>
+										<path id="p294" class="s1" d="M0,10c0,-5 5,-10 10,-10h42c5,0 10,5 10,10v36c0,5 -5,10 -10,10h-42c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9611" transform="translate(163,31)">
+									<text id="t772" class="s5" x="0" y="11">? – ?</text>
+								</g>
+							</g>
+							<g id="g9101" transform="translate(464,0)">
+								<path id="l61" class="s6" d="M193 52v112" />
+								<path id="l60" class="s7 da" d="M178 50h31" />
+								<g id="g9102">
+									<path id="l52" class="s6" d="M89 -12v12" />
+									<g id="g9103" class="po" data-id="195">
+										<path id="p299" class="s2" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp299">
+											<use xlink:href="#p299" />
+										</clipPath>
+										<g id="g9568" clip-path="url(#cp299)">
+											<image id="i57" xlink:href="./Хрипач.html.files/img/i57.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t580" class="s14" x="99" y="17">Махрова</text>
+											<text id="t581" class="s14" x="98" y="32">(Хрипач)</text>
+											<text id="t582" class="s14" x="93" y="47">Екатерина</text>
+											<text id="t583" class="s14" x="80" y="62">Владимировна</text>
+											<text id="t584" class="s13" x="96" y="77">02.03.1982</text>
+											<text id="t585" class="s15" x="83" y="92">2-юродная тётя</text>
+											<text id="t586" class="s13" x="101" y="107">Чашники</text>
+										</g>
+										<path id="p300" class="s1" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9111" transform="translate(209,0)">
+									<g id="g9112" class="po" data-id="349">
+										<path id="p301" class="s0" d="M0,0h145v100h-145Z" />
+										<g id="g9569">
+											<image id="i58" xlink:href="./Хрипач.html.files/img/i58.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t587" class="s14" x="86" y="17">Махров</text>
+											<text id="t588" class="s14" x="87" y="32">Андрей</text>
+											<text id="t589" class="s13" x="80" y="47">01.05.1979</text>
+										</g>
+										<path id="p302" class="s1" d="M0,0h145v100h-145Z" />
+									</g>
+								</g>
+								<g id="g9612" transform="translate(182,31)">
+									<text id="t773" class="s5" x="0" y="11">? – ?</text>
+								</g>
+							</g>
+						</g>
+						<g id="g9090" transform="translate(6571,1131)">
+							<path id="l58" class="s6" d="M89 -12h182" />
+							<g id="g9091">
+								<g id="g9092">
+									<path id="l56" class="s6" d="M89 -12v12" />
+									<g id="g9093" class="po" data-id="199">
+										<path id="p295" class="s2" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp295">
+											<use xlink:href="#p295" />
+										</clipPath>
+										<g id="g9566" clip-path="url(#cp295)">
+											<image id="i55" xlink:href="./Хрипач.html.files/img/i55.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t568" class="s14" x="98" y="17">(Хрипач)</text>
+											<text id="t569" class="s14" x="107" y="32">Алина</text>
+											<text id="t570" class="s14" x="80" y="47">Владимировна</text>
+											<text id="t571" class="s13" x="96" y="62">28.10.2003</text>
+											<text id="t572" class="s15" x="97" y="77">3-юродная</text>
+											<text id="t573" class="s15" x="108" y="92">сестра</text>
+											<text id="t574" class="s13" x="101" y="107">Чашники</text>
+										</g>
+										<path id="p296" class="s1" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9094" transform="translate(190,0)">
+								<g id="g9095">
+									<path id="l57" class="s6" d="M81 -12v12" />
+									<g id="g9096" class="po" data-id="200">
+										<path id="p297" class="s0" d="M0,0h163v100h-163Z" />
+										<g id="g9567">
+											<image id="i56" xlink:href="./Хрипач.html.files/img/i56.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t575" class="s14" x="96" y="17">Хрипач</text>
+											<text id="t576" class="s14" x="103" y="32">Илья</text>
+											<text id="t577" class="s14" x="80" y="47">Максимович</text>
+											<text id="t578" class="s15" x="88" y="62">3-юродный</text>
+											<text id="t579" class="s15" x="106" y="77">брат</text>
+										</g>
+										<path id="p298" class="s1" d="M0,0h163v100h-163Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9104" transform="translate(7076,1131)">
+							<path id="l64" class="s6" d="M76 -12h165" />
+							<g id="g9105">
+								<g id="g9106">
+									<path id="l62" class="s6" d="M76 -12v12" />
+									<g id="g9107" class="po" data-id="197">
+										<path id="p303" class="s0" d="M0,0h153v116h-153Z" />
+										<g id="g9570">
+											<image id="i59" xlink:href="./Хрипач.html.files/img/i59.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t590" class="s14" x="90" y="17">Махров</text>
+											<text id="t591" class="s14" x="94" y="32">Павел</text>
+											<text id="t592" class="s14" x="80" y="47">Андреевич</text>
+											<text id="t593" class="s13" x="84" y="62">30.06.2006</text>
+											<text id="t594" class="s15" x="83" y="77">3-юродный</text>
+											<text id="t595" class="s15" x="101" y="92">брат</text>
+											<text id="t596" class="s13" x="89" y="107">Чашники</text>
+										</g>
+										<path id="p304" class="s1" d="M0,0h153v116h-153Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9108" transform="translate(165,0)">
+								<g id="g9109">
+									<path id="l63" class="s6" d="M76 -12v12" />
+									<g id="g9110" class="po" data-id="198">
+										<path id="p305" class="s0" d="M0,0h153v101h-153Z" />
+										<g id="g9571">
+											<image id="i60" xlink:href="./Хрипач.html.files/img/i60.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t597" class="s14" x="90" y="17">Махров</text>
+											<text id="t598" class="s14" x="91" y="32">Никита</text>
+											<text id="t599" class="s14" x="80" y="47">Андреевич</text>
+											<text id="t600" class="s13" x="84" y="62">31.07.2007</text>
+											<text id="t601" class="s15" x="83" y="77">3-юродный</text>
+											<text id="t602" class="s15" x="101" y="92">брат</text>
+										</g>
+										<path id="p306" class="s1" d="M0,0h153v101h-153Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9417" transform="translate(7677,131)">
+							<g id="g9418">
+								<g id="g9419">
+									<path id="l221" class="s6" d="M36 71v90" />
+									<g id="g9420" class="po" data-id="231">
+										<path id="p307" class="s0" d="M0,0h73v71h-73Z" />
+										<g id="g9572">
+											<text id="t603" class="s14" x="13" y="17">Лайков</text>
+											<text id="t604" class="s14" x="5" y="32">Илларион</text>
+											<text id="t605" class="s13" x="24" y="47">? – ?</text>
+											<text id="t606" class="s15" x="8" y="62">Пра(3)дед</text>
+										</g>
+										<path id="p308" class="s1" d="M0,0h73v71h-73Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9330" transform="translate(7662,292)">
+							<g id="g9331">
+								<path id="l174" class="s6" d="M114 58v151" />
+								<path id="l173" class="s7" d="M103 58h22" />
+								<g id="g9332">
+									<g id="g9333" class="po" data-id="54">
+										<path id="p309" class="s0" d="M0,0h103v116h-103Z" />
+										<g id="g9573">
+											<text id="t607" class="s14" x="28" y="17">Лайков</text>
+											<text id="t608" class="s14" x="22" y="32">Григорий</text>
+											<text id="t609" class="s14" x="5" y="47">Илларионович</text>
+											<text id="t610" class="s13" x="18" y="62">1868 – 1950</text>
+											<text id="t611" class="s15" x="23" y="77">Пра(2)дед</text>
+											<text id="t612" class="s13" x="21" y="92">Хаританцы</text>
+											<text id="t613" class="s13" x="25" y="107">Островки</text>
+										</g>
+										<path id="p310" class="s1" d="M0,0h103v116h-103Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9326" transform="translate(7014,513)">
+							<path id="l183" class="s6" d="M82 -12h1361" />
+							<g id="g9327">
+								<g id="g9328">
+									<path id="l178" class="s6" d="M82 -12v12" />
+									<g id="g9329" class="po" data-id="31">
+										<path id="p314" class="s2" d="M0,10c0,-5 5,-10 10,-10h144c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-144c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp314">
+											<use xlink:href="#p314" />
+										</clipPath>
+										<g id="g9574" clip-path="url(#cp314)">
+											<image id="i61" xlink:href="./Хрипач.html.files/img/i61.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t614" class="s14" x="96" y="17">Хрипач</text>
+											<text id="t615" class="s14" x="87" y="32">(Лайкова)</text>
+											<text id="t616" class="s14" x="104" y="47">Анна</text>
+											<text id="t617" class="s14" x="80" y="62">Григорьевна</text>
+											<text id="t618" class="s13" x="84" y="77">02.05.1911 –</text>
+											<text id="t619" class="s13" x="89" y="92">10.08.1993</text>
+											<text id="t620" class="s15" x="85" y="107">Прабабушка</text>
+											<g id="g9575">
+												<path id="p311" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p312" class="s12" d="M0,11 l11,-11" />
+												<path id="p313" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p315" class="s1" d="M0,10c0,-5 5,-10 10,-10h144c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-144c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9334" transform="translate(176,0)">
+								<g id="g9335">
+									<path id="l184" class="s6" d="M57 86v150" />
+									<path id="l175" class="s6" d="M57 -12v12" />
+									<g id="g9336" class="po" data-id="214">
+										<path id="p316" class="s0" d="M0,0h115v86h-115Z" />
+										<g id="g9576">
+											<text id="t621" class="s14" x="34" y="17">Лайков</text>
+											<text id="t622" class="s14" x="38" y="32">Денис</text>
+											<text id="t623" class="s14" x="17" y="47">Григорьевич</text>
+											<text id="t624" class="s13" x="15" y="62">1900 – До 1945</text>
+											<text id="t625" class="s15" x="5" y="77">2-юродный прадед</text>
+										</g>
+										<path id="p317" class="s1" d="M0,0h115v86h-115Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9341" transform="translate(303,0)">
+								<path id="l187" class="s7" d="M115 35h22" />
+								<g id="g9342">
+									<path id="l176" class="s6" d="M57 -12v12" />
+									<g id="g9343" class="po" data-id="215">
+										<path id="p320" class="s0" d="M0,0h115v86h-115Z" />
+										<g id="g9578">
+											<text id="t633" class="s14" x="34" y="17">Лайков</text>
+											<text id="t634" class="s14" x="41" y="32">Иван</text>
+											<text id="t635" class="s14" x="17" y="47">Григорьевич</text>
+											<text id="t636" class="s13" x="7" y="62">1902 – 27.11.1944</text>
+											<text id="t637" class="s15" x="5" y="77">2-юродный прадед</text>
+										</g>
+										<path id="p321" class="s1" d="M0,0h115v86h-115Z" />
+									</g>
+								</g>
+								<g id="g9344" transform="translate(137,0)">
+									<g id="g9345" class="po" data-id="275">
+										<path id="p322" class="s2" d="M0,10c0,-5 5,-10 10,-10h65c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-65c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp322">
+											<use xlink:href="#p322" />
+										</clipPath>
+										<g id="g9579" clip-path="url(#cp322)">
+											<text id="t638" class="s13" x="28" y="17">[тел]</text>
+											<text id="t639" class="s14" x="16" y="32">Лайкова</text>
+											<text id="t640" class="s14" x="19" y="47">Агафья</text>
+											<text id="t641" class="s14" x="5" y="62">Андросовна</text>
+										</g>
+										<path id="p323" class="s1" d="M0,10c0,-5 5,-10 10,-10h65c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-65c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9346" transform="translate(537,0)">
+								<g id="g9347">
+									<path id="l188" class="s6" d="M65 101v135" />
+									<path id="l177" class="s6" d="M65 -12v12" />
+									<g id="g9348" class="po" data-id="115">
+										<path id="p324" class="s0" d="M0,0h130v101h-130Z" />
+										<g id="g9580">
+											<text id="t642" class="s14" x="42" y="17">Лайков</text>
+											<text id="t643" class="s14" x="33" y="32">Владимир</text>
+											<text id="t644" class="s14" x="25" y="47">Григорьевич</text>
+											<text id="t645" class="s13" x="5" y="62">1907 или 1909 – 1944</text>
+											<text id="t646" class="s15" x="12" y="77">2-юродный прадед</text>
+											<text id="t647" class="s13" x="39" y="92">Островки</text>
+										</g>
+										<path id="p325" class="s1" d="M0,0h130v101h-130Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9353" transform="translate(679,0)">
+								<g id="g9354">
+									<path id="l179" class="s6" d="M57 -12v12" />
+									<g id="g9355" class="po" data-id="216">
+										<path id="p328" class="s0" d="M0,0h115v86h-115Z" />
+										<g id="g9582">
+											<text id="t653" class="s14" x="34" y="17">Лайков</text>
+											<text id="t654" class="s14" x="34" y="32">Леонид</text>
+											<text id="t655" class="s14" x="17" y="47">Григорьевич</text>
+											<text id="t656" class="s13" x="15" y="62">1912 – До 1945</text>
+											<text id="t657" class="s15" x="5" y="77">2-юродный прадед</text>
+										</g>
+										<path id="p329" class="s1" d="M0,0h115v86h-115Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9356" transform="translate(806,0)">
+								<g id="g9357">
+									<path id="l180" class="s6" d="M57 -12v12" />
+									<g id="g9358" class="po" data-id="114">
+										<path id="p330" class="s0" d="M0,0h115v116h-115Z" />
+										<g id="g9583">
+											<text id="t658" class="s14" x="34" y="17">Лайков</text>
+											<text id="t659" class="s14" x="24" y="32">Александр</text>
+											<text id="t660" class="s14" x="17" y="47">Григорьевич</text>
+											<text id="t661" class="s13" x="22" y="62">23.04.1913 –</text>
+											<text id="t662" class="s13" x="27" y="77">23.03.1944</text>
+											<text id="t663" class="s15" x="5" y="92">2-юродный прадед</text>
+											<text id="t664" class="s13" x="31" y="107">Островки</text>
+										</g>
+										<path id="p331" class="s1" d="M0,0h115v116h-115Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9359" transform="translate(933,0)">
+								<g id="g9360">
+									<path id="l191" class="s6" d="M82 101v135" />
+									<path id="l181" class="s6" d="M82 -12v12" />
+									<g id="g9361" class="po" data-id="203">
+										<path id="p335" class="s2" d="M0,10c0,-5 5,-10 10,-10h144c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-144c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp335">
+											<use xlink:href="#p335" />
+										</clipPath>
+										<g id="g9584" clip-path="url(#cp335)">
+											<image id="i63" xlink:href="./Хрипач.html.files/img/i63.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t665" class="s14" x="87" y="17">(Лайкова)</text>
+											<text id="t666" class="s14" x="82" y="32">Александра</text>
+											<text id="t667" class="s14" x="80" y="47">Григорьевна</text>
+											<text id="t668" class="s13" x="96" y="62">1915 – ?</text>
+											<text id="t669" class="s15" x="90" y="77">2-юродная</text>
+											<text id="t670" class="s15" x="86" y="92">прабабушка</text>
+											<g id="g9585">
+												<path id="p332" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p333" class="s12" d="M0,11 l11,-11" />
+												<path id="p334" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p336" class="s1" d="M0,10c0,-5 5,-10 10,-10h144c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-144c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9366" transform="translate(1361,0)">
+								<path id="l195" class="s6" d="M181 58v166" />
+								<path id="l194" class="s7" d="M165 58h32" />
+								<g id="g9367">
+									<path id="l182" class="s6" d="M82 -12v12" />
+									<g id="g9368" class="po" data-id="103">
+										<path id="p342" class="s0" d="M0,0h165v146h-165Z" />
+										<g id="g9587">
+											<image id="i65" xlink:href="./Хрипач.html.files/img/i65.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t676" class="s13" x="106" y="17">[тел]</text>
+											<text id="t677" class="s14" x="97" y="32">Лайков</text>
+											<text id="t678" class="s14" x="99" y="47">Филип</text>
+											<text id="t679" class="s14" x="80" y="62">Григорьевич</text>
+											<text id="t680" class="s13" x="85" y="77">01.01.1916 –</text>
+											<text id="t681" class="s13" x="90" y="92">08.01.1999</text>
+											<text id="t682" class="s15" x="89" y="107">2-юродный</text>
+											<text id="t683" class="s15" x="100" y="122">прадед</text>
+											<text id="t684" class="s13" x="94" y="137">Островки</text>
+											<g id="g9588">
+												<path id="p339" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p340" class="s12" d="M0,11 l11,-11" />
+												<path id="p341" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p343" class="s1" d="M0,0h165v146h-165Z" />
+									</g>
+								</g>
+								<g id="g9406" transform="translate(197,0)">
+									<path id="l218" class="s6" d="M84 -120v120" />
+									<path id="l215" class="s6" d="M84 116v96" />
+									<g id="g9407" class="po" data-id="209">
+										<path id="p347" class="s2" d="M0,10c0,-5 5,-10 10,-10h149c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-149c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp347">
+											<use xlink:href="#p347" />
+										</clipPath>
+										<g id="g9589" clip-path="url(#cp347)">
+											<image id="i66" xlink:href="./Хрипач.html.files/img/i66.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t685" class="s14" x="95" y="17">Лайкова</text>
+											<text id="t686" class="s14" x="90" y="32">(Курчова)</text>
+											<text id="t687" class="s14" x="88" y="47">Валентина</text>
+											<text id="t688" class="s14" x="80" y="62">Афанасьевна</text>
+											<text id="t689" class="s13" x="87" y="77">10.01.1925 –</text>
+											<text id="t690" class="s13" x="92" y="92">21.12.2009</text>
+											<text id="t691" class="s13" x="95" y="107">Хватынка</text>
+											<g id="g9590">
+												<path id="p344" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p345" class="s12" d="M0,11 l11,-11" />
+												<path id="p346" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p348" class="s1" d="M0,10c0,-5 5,-10 10,-10h149c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-149c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9613" transform="translate(169,39)">
+									<text id="t774" class="s5" x="0" y="11">1952</text>
+								</g>
+							</g>
+						</g>
+						<g id="g9337" transform="translate(7171,749)">
+							<g id="g9338">
+								<g id="g9339">
+									<g id="g9340" class="po" data-id="222">
+										<path id="p318" class="s0" d="M0,0h153v116h-153Z" />
+										<g id="g9577">
+											<image id="i62" xlink:href="./Хрипач.html.files/img/i62.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t626" class="s13" x="100" y="17">[тел]</text>
+											<text id="t627" class="s14" x="91" y="32">Лайков</text>
+											<text id="t628" class="s14" x="90" y="47">Леонид</text>
+											<text id="t629" class="s14" x="80" y="62">Денисович</text>
+											<text id="t630" class="s15" x="83" y="77">3-юродный</text>
+											<text id="t631" class="s15" x="104" y="92">дед</text>
+											<text id="t632" class="s13" x="88" y="107">Бердянск</text>
+										</g>
+										<path id="p319" class="s1" d="M0,0h153v116h-153Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9349" transform="translate(7565,749)">
+							<g id="g9350">
+								<g id="g9351">
+									<g id="g9352" class="po" data-id="221">
+										<path id="p326" class="s0" d="M0,0h103v86h-103Z" />
+										<g id="g9581">
+											<text id="t648" class="s13" x="37" y="17">[тел]</text>
+											<text id="t649" class="s14" x="28" y="32">Лайков</text>
+											<text id="t650" class="s14" x="25" y="47">Василий</text>
+											<text id="t651" class="s14" x="5" y="62">Владимирович</text>
+											<text id="t652" class="s15" x="9" y="77">3-юродный дед</text>
+										</g>
+										<path id="p327" class="s1" d="M0,0h103v86h-103Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9362" transform="translate(7952,749)">
+							<g id="g9363">
+								<g id="g9364">
+									<g id="g9365" class="po" data-id="204">
+										<path id="p337" class="s0" d="M0,0h154v100h-154Z" />
+										<g id="g9586">
+											<image id="i64" xlink:href="./Хрипач.html.files/img/i64.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t671" class="s14" x="80" y="17">Хабибулин</text>
+											<text id="t672" class="s14" x="99" y="32">Олег</text>
+											<text id="t673" class="s14" x="81" y="47">Заметович</text>
+											<text id="t674" class="s15" x="83" y="62">3-юродный</text>
+											<text id="t675" class="s15" x="104" y="77">дед</text>
+										</g>
+										<path id="p338" class="s1" d="M0,0h154v100h-154Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9369" transform="translate(8128,749)">
+							<path id="l217" class="s6" d="M528 -24h152" />
+							<path id="l199" class="s6" d="M275 -12h307" />
+							<g id="g9370">
+								<path id="l201" class="s6" d="M181 50v144" />
+								<path id="l200" class="s7" d="M165 50h32" />
+								<g id="g9398">
+									<g id="g9399" class="po" data-id="207">
+										<path id="p349" class="s2" d="M0,10c0,-5 5,-10 10,-10h145c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-145c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp349">
+											<use xlink:href="#p349" />
+										</clipPath>
+										<g id="g9591" clip-path="url(#cp349)">
+											<image id="i67" xlink:href="./Хрипач.html.files/img/i67.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t692" class="s14" x="93" y="17">Лайкова</text>
+											<text id="t693" class="s14" x="80" y="32">(Хромченко)</text>
+											<text id="t694" class="s14" x="95" y="47">Любовь</text>
+											<text id="t695" class="s14" x="85" y="62">Федоровна</text>
+											<text id="t696" class="s13" x="107" y="77">1951</text>
+										</g>
+										<path id="p350" class="s1" d="M0,10c0,-5 5,-10 10,-10h145c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-145c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9371" transform="translate(197,0)">
+									<path id="l196" class="s6" d="M78 -12v12" />
+									<g id="g9372" class="po" data-id="201">
+										<path id="p354" class="s0" d="M0,0h157v131h-157Z" />
+										<g id="g9592">
+											<image id="i68" xlink:href="./Хрипач.html.files/img/i68.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t697" class="s14" x="93" y="17">Лайков</text>
+											<text id="t698" class="s14" x="84" y="32">Владимир</text>
+											<text id="t699" class="s14" x="80" y="47">Филипович</text>
+											<text id="t700" class="s13" x="81" y="62">04.05.1953 –</text>
+											<text id="t701" class="s13" x="86" y="77">02.11.2022</text>
+											<text id="t702" class="s15" x="85" y="92">3-юродный</text>
+											<text id="t703" class="s15" x="106" y="107">дед</text>
+											<text id="t704" class="s13" x="90" y="122">Островки</text>
+											<g id="g9593">
+												<path id="p351" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p352" class="s12" d="M0,11 l11,-11" />
+												<path id="p353" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p355" class="s1" d="M0,0h157v131h-157Z" />
+									</g>
+								</g>
+								<g id="g9614" transform="translate(169,31)">
+									<text id="t775" class="s5" x="0" y="11">1975</text>
+								</g>
+							</g>
+							<g id="g9400" transform="translate(366,0)">
+								<g id="g9401">
+									<path id="l197" class="s6" d="M78 -12v12" />
+									<g id="g9402" class="po" data-id="210">
+										<path id="p372" class="s0" d="M0,0h157v131h-157Z" />
+										<g id="g9602">
+											<image id="i72" xlink:href="./Хрипач.html.files/img/i72.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t734" class="s13" x="102" y="17">[тел]</text>
+											<text id="t735" class="s14" x="93" y="32">Лайков</text>
+											<text id="t736" class="s14" x="91" y="47">Михаил</text>
+											<text id="t737" class="s14" x="80" y="62">Филипович</text>
+											<text id="t738" class="s13" x="86" y="77">04.05.1953</text>
+											<text id="t739" class="s15" x="85" y="92">3-юродный</text>
+											<text id="t740" class="s15" x="106" y="107">дед</text>
+											<text id="t741" class="s13" x="87" y="122">Солигорск</text>
+										</g>
+										<path id="p373" class="s1" d="M0,0h157v131h-157Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9403" transform="translate(535,0)">
+								<g id="g9404">
+									<path id="l198" class="s6" d="M47 -12v12" />
+									<g id="g9405" class="po" data-id="104">
+										<path id="p374" class="s0" d="M0,0h95v116h-95Z" />
+										<g id="g9603">
+											<text id="t742" class="s13" x="33" y="17">[тел]</text>
+											<text id="t743" class="s14" x="24" y="32">Лайков</text>
+											<text id="t744" class="s14" x="22" y="47">Евгений</text>
+											<text id="t745" class="s14" x="11" y="62">Филипович</text>
+											<text id="t746" class="s13" x="17" y="77">04.04.1956</text>
+											<text id="t747" class="s15" x="5" y="92">3-юродный дед</text>
+											<text id="t748" class="s13" x="11" y="107">Новолукомль</text>
+										</g>
+										<path id="p375" class="s1" d="M0,0h95v116h-95Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9408" transform="translate(642,0)">
+								<g id="g9409">
+									<path id="l216" class="s6" d="M38 -24v24" />
+									<g id="g9410" class="po" data-id="202">
+										<path id="p376" class="s0" d="M0,0h77v86h-77Z" />
+										<g id="g9604">
+											<text id="t749" class="s13" x="24" y="17">[тел]</text>
+											<text id="t750" class="s14" x="16" y="32">Курчов</text>
+											<text id="t751" class="s14" x="11" y="47">Валерий</text>
+											<text id="t752" class="s14" x="5" y="62">Борисович</text>
+											<text id="t753" class="s13" x="8" y="77">15.04.1949</text>
+										</g>
+										<path id="p377" class="s1" d="M0,0h77v86h-77Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9373" transform="translate(8040,955)">
+							<path id="l204" class="s6" d="M174 -12h190" />
+							<g id="g9374">
+								<path id="l206" class="s6" d="M74 20v144" />
+								<path id="l205" class="s7" d="M63 20h22" />
+								<g id="g9384">
+									<g id="g9385" class="po" data-id="441">
+										<path id="p356" class="s2" d="M0,10c0,-5 5,-10 10,-10h43c5,0 10,5 10,10v21c0,5 -5,10 -10,10h-43c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp356">
+											<use xlink:href="#p356" />
+										</clipPath>
+										<g id="g9594" clip-path="url(#cp356)">
+											<text id="t705" class="s14" x="5" y="17">Лайкова</text>
+											<text id="t706" class="s14" x="7" y="32">Марина</text>
+										</g>
+										<path id="p357" class="s1" d="M0,10c0,-5 5,-10 10,-10h43c5,0 10,5 10,10v21c0,5 -5,10 -10,10h-43c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9375" transform="translate(85,0)">
+									<path id="l202" class="s6" d="M89 -12v12" />
+									<g id="g9376" class="po" data-id="206">
+										<path id="p358" class="s0" d="M0,0h178v116h-178Z" />
+										<g id="g9595">
+											<image id="i69" xlink:href="./Хрипач.html.files/img/i69.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t707" class="s14" x="103" y="17">Лайков</text>
+											<text id="t708" class="s14" x="110" y="32">Иван</text>
+											<text id="t709" class="s14" x="80" y="47">Владимирович</text>
+											<text id="t710" class="s13" x="96" y="62">10.09.1979</text>
+											<text id="t711" class="s15" x="80" y="77">3-юродный дядя</text>
+											<text id="t712" class="s13" x="91" y="92">Новая Мётча</text>
+											<text id="t713" class="s13" x="104" y="107">Борисов</text>
+										</g>
+										<path id="p359" class="s1" d="M0,0h178v116h-178Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9386" transform="translate(275,0)">
+								<path id="l211" class="s6" d="M189 17v147" />
+								<path id="l210" class="s7" d="M178 17h22" />
+								<g id="g9387">
+									<path id="l203" class="s6" d="M89 -12v12" />
+									<g id="g9388" class="po" data-id="211">
+										<path id="p364" class="s2" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp364">
+											<use xlink:href="#p364" />
+										</clipPath>
+										<g id="g9598" clip-path="url(#cp364)">
+											<image id="i70" xlink:href="./Хрипач.html.files/img/i70.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t722" class="s14" x="94" y="17">(Лайкова)</text>
+											<text id="t723" class="s14" x="108" y="32">Елена</text>
+											<text id="t724" class="s14" x="80" y="47">Владимировна</text>
+											<text id="t725" class="s15" x="83" y="62">3-юродная тётя</text>
+										</g>
+										<path id="p365" class="s1" d="M0,10c0,-5 5,-10 10,-10h158c5,0 10,5 10,10v80c0,5 -5,10 -10,10h-158c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+								<g id="g9396" transform="translate(200,0)">
+									<g id="g9397" class="po" data-id="219">
+										<path id="p366" class="s0" d="M0,0h77v35h-77Z" />
+										<g id="g9599">
+											<text id="t726" class="s14" x="5" y="17">Александр</text>
+										</g>
+										<path id="p367" class="s1" d="M0,0h77v35h-77Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9377" transform="translate(8006,1131)">
+							<path id="l209" class="s6" d="M50 -12h117" />
+							<g id="g9378">
+								<g id="g9379">
+									<path id="l207" class="s6" d="M50 -12v12" />
+									<g id="g9380" class="po" data-id="442">
+										<path id="p360" class="s0" d="M0,0h101v71h-101Z" />
+										<g id="g9596">
+											<text id="t714" class="s14" x="27" y="17">Лайков</text>
+											<text id="t715" class="s14" x="24" y="32">Василий</text>
+											<text id="t716" class="s14" x="20" y="47">Иванович</text>
+											<text id="t717" class="s15" x="5" y="62">4-юродный брат</text>
+										</g>
+										<path id="p361" class="s1" d="M0,0h101v71h-101Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9381" transform="translate(113,0)">
+								<g id="g9382">
+									<path id="l208" class="s6" d="M54 -12v12" />
+									<g id="g9383" class="po" data-id="443">
+										<path id="p362" class="s2" d="M0,10c0,-5 5,-10 10,-10h89c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-89c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp362">
+											<use xlink:href="#p362" />
+										</clipPath>
+										<g id="g9597" clip-path="url(#cp362)">
+											<text id="t718" class="s14" x="22" y="17">(Лайкова)</text>
+											<text id="t719" class="s14" x="24" y="32">Вероника</text>
+											<text id="t720" class="s14" x="24" y="47">Ивановна</text>
+											<text id="t721" class="s15" x="5" y="62">4-юродная сестра</text>
+										</g>
+										<path id="p363" class="s1" d="M0,10c0,-5 5,-10 10,-10h89c5,0 10,5 10,10v51c0,5 -5,10 -10,10h-89c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9389" transform="translate(8335,1131)">
+							<path id="l214" class="s6" d="M91 -12h156" />
+							<g id="g9390">
+								<g id="g9391">
+									<path id="l212" class="s6" d="M91 -12v12" />
+									<g id="g9392" class="po" data-id="218">
+										<path id="p368" class="s0" d="M0,0h182v100h-182Z" />
+										<g id="g9600">
+											<image id="i71" xlink:href="./Хрипач.html.files/img/i71.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t727" class="s14" x="94" y="17">Владислав</text>
+											<text id="t728" class="s14" x="80" y="32">Александрович</text>
+											<text id="t729" class="s13" x="115" y="47">2001</text>
+											<text id="t730" class="s15" x="83" y="62">4-юродный брат</text>
+										</g>
+										<path id="p369" class="s1" d="M0,0h182v100h-182Z" />
+									</g>
+								</g>
+							</g>
+							<g id="g9393" transform="translate(194,0)">
+								<g id="g9394">
+									<path id="l213" class="s6" d="M53 -12v12" />
+									<g id="g9395" class="po" data-id="220">
+										<path id="p370" class="s0" d="M0,0h107v56h-107Z" />
+										<g id="g9601">
+											<text id="t731" class="s14" x="34" y="17">Павел</text>
+											<text id="t732" class="s14" x="5" y="32">Александрович</text>
+											<text id="t733" class="s15" x="8" y="47">4-юродный брат</text>
+										</g>
+										<path id="p371" class="s1" d="M0,0h107v56h-107Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9425" transform="translate(7801,131)">
+							<g id="g9426">
+								<g id="g9427">
+									<path id="l224" class="s6" d="M33 56v105" />
+									<g id="g9428" class="po" data-id="232">
+										<path id="p378" class="s0" d="M0,0h66v56h-66Z" />
+										<g id="g9605">
+											<text id="t754" class="s14" x="14" y="17">Тихон</text>
+											<text id="t755" class="s13" x="20" y="32">? – ?</text>
+											<text id="t756" class="s15" x="5" y="47">Пра(3)дед</text>
+										</g>
+										<path id="p379" class="s1" d="M0,0h66v56h-66Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="g9421" transform="translate(7787,292)">
+							<g id="g9422">
+								<g id="g9423">
+									<g id="g9424" class="po" data-id="205">
+										<path id="p380" class="s2" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp380">
+											<use xlink:href="#p380" />
+										</clipPath>
+										<g id="g9606" clip-path="url(#cp380)">
+											<text id="t757" class="s14" x="20" y="17">Лайкова</text>
+											<text id="t758" class="s14" x="26" y="32">Мария</text>
+											<text id="t759" class="s14" x="13" y="47">Тихоновна</text>
+											<text id="t760" class="s13" x="14" y="62">1869 – 1952</text>
+											<text id="t761" class="s15" x="5" y="77">Пра(2)бабушка</text>
+											<text id="t762" class="s13" x="17" y="92">Хаританцы</text>
+											<text id="t763" class="s13" x="21" y="107">Островки</text>
+										</g>
+										<path id="p381" class="s1" d="M0,10c0,-5 5,-10 10,-10h74c5,0 10,5 10,10v96c0,5 -5,10 -10,10h-74c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g id="g9411" transform="translate(8566,0)">
+						<g id="g9413" transform="translate(0,292)">
+							<g id="g9414">
+								<g id="g9415">
+									<g id="g9416" class="po" data-id="444">
+										<path id="p385" class="s2" d="M0,10c0,-5 5,-10 10,-10h160c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-160c-5,0 -10,-5 -10,-10Z" />
+										<clipPath id="cp385">
+											<use xlink:href="#p385" />
+										</clipPath>
+										<g id="g9607" clip-path="url(#cp385)">
+											<image id="i73" xlink:href="./Хрипач.html.files/img/i73.jpeg" x="0" y="0" width="75" height="100" />
+											<text id="t764" class="s14" x="101" y="17">Курчова</text>
+											<text id="t765" class="s14" x="80" y="32">(Сапежинская)</text>
+											<text id="t766" class="s14" x="100" y="47">Маланья</text>
+											<text id="t767" class="s14" x="95" y="62">Сергеевна</text>
+											<text id="t768" class="s13" x="92" y="77">14.06.1900 –</text>
+											<text id="t769" class="s13" x="97" y="92">20.12.1995</text>
+											<g id="g9608">
+												<path id="p382" class="s11" d="M0,11 l11,-11 h5 l-16,16Z" />
+												<path id="p383" class="s12" d="M0,11 l11,-11" />
+												<path id="p384" class="s12" d="M0,16 l16,-16" />
+											</g>
+										</g>
+										<path id="p386" class="s1" d="M0,10c0,-5 5,-10 10,-10h160c5,0 10,5 10,10v81c0,5 -5,10 -10,10h-160c-5,0 -10,-5 -10,-10Z" />
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+			<script type="text/javascript">//<![CDATA[
+navTo = function() {
+	if (this.dataset.link.match(/^(?!https?:\/\/).+?\.html?$/i))
+		window.location.href = this.dataset.link;
+	else
+		window.open(this.dataset.link, '_blank');
+};
+var a = document.querySelectorAll('[data-link]');
+for(var i = 0; i < a.length; i++) a[i].addEventListener('click', navTo);
+a = undefined;
+function scrollToView(e){
+	if(typeof e.scrollIntoView != 'undefined')
+        e.scrollIntoView({block: "center", inline: "center"});
+	else
+	{
+		var r = e.getBoundingClientRect()
+		window.scrollTo({ top: window.pageYOffset + r.top - window.innerHeight / 2, left: window.pageXOffset + r.left - window.innerWidth / 2})
+	}
+}
+function scrollToViewTop(e){
+	if(typeof e.scrollIntoView != 'undefined')
+        e.scrollIntoView(true);
+	else{
+		var r = e.getBoundingClientRect()
+		window.scrollTo({ top: window.pageYOffset + r.top})
+	}
+}
+jumpTo = function(){ var e = document.getElementById(this.dataset.ref); e && scrollToView(e); }
+jumpToTop = function(){ var e = document.getElementById(this.dataset.ref); e && scrollToViewTop(e); }
+var _tmp;
+a = document.querySelectorAll('[data-ref]');
+for(var i = 0; i < a.length; i++){
+	if( a[i].dataset.ref.match( /^[0-9]/ ) ) {
+		_tmp = document.querySelector('[data-id="' + a[i].dataset.ref + '"]')
+		if(_tmp){
+            a[i].dataset.ref = _tmp.id;
+		    a[i].addEventListener('click', jumpToTop);
+        }
+	}else {
+		a[i].addEventListener('click', jumpTo);
+	}
+}
+a = undefined;
+
+window.addEventListener('DOMContentLoaded', function(){
+	var svg = document.getElementById('svg0');
+	var e = document.getElementById(svg.dataset.root);
+	e && scrollToView(e);
+});
+var p = null;
+function startDrag(e, x, y) {
+	if(!e.ctrlKey) return;
+	p = { x: x, y: y }
+}
+function endDrag(e) {
+	p = null;
+}
+function onMove(e, x, y) {
+	if(p) {
+		if(!e.ctrlKey){
+			p = null;
+		} else {
+			window.scrollTo({
+				top: window.pageYOffset-(y-p.y),
+				left: window.pageXOffset-(x-p.x)
+			})
+			e.preventDefault();
+		}
+	}
+}
+document.addEventListener('mouseup', endDrag, false );
+document.addEventListener('mousedown', function(e){ startDrag(e, e.pageX, e.pageY) }, false );
+document.addEventListener('mousemove', function(e){ onMove(e, e.pageX, e.pageY) }, false );
+var currpos = 0;
+var currgid = 0;
+var modal,mc,mcw;
+function updateModalHeight(fh) {
+	if(modal.clientHeight * 0.87 < fh + 40 ) {
+		mcw.style.height = '87%';
+		mc.style.height = '98%';
+	}else{
+		mcw.style.height = 'auto';
+		mc.style.height = fh + 40 + 'px';
+	}
+}
+window.addEventListener('DOMContentLoaded', function (){
+	modal = document.getElementById('myModal');
+	mc = document.getElementById('modalContent');
+	mcw = document.getElementById('modalContentWrap');
+	window.addEventListener('message', function (event) {
+		if (event.data.event_id === 'gmsg') currgid = event.data.data;
+		if (event.data.event_id === 'gclose') closemodal();
+		if (event.data.event_id === 'gheight') updateModalHeight(event.data.data);
+	});
+	window.addEventListener('keydown', function(e){ if( (e.keyCode && e.keyCode === 27) || ( e.code && e.code === "Escape") ) closemodal(); }, false );
+
+	var navToPerson = function () {
+		mc.innerHTML = '<iframe id="idetail" onload="currpos+=1;" src="Хрипач.html.files/p' + this.dataset.id + '.html?v=1" class="modal-frame"></iframe>';
+		modal.style.display = 'block';
+	}
+	function closemodal() { modal.style.display = "none"; currpos = 0; }
+	var spanback = document.getElementsByClassName("back")[0];
+	spanback.onclick = function () { if (currpos > 1) { window.history.back(); currpos -= 2; } else closemodal(); }
+	var spanx = document.getElementsByClassName("close")[0];
+	spanx.onclick = closemodal;
+	var spantree = document.getElementsByClassName("tree")[0];
+	spantree.onclick = function () {
+		closemodal();
+		var elmnt = document.getElementById(currgid);
+		if( elmnt ) scrollToView(elmnt);
+	}
+	window.onclick = function (event) { if (event.target === modal) closemodal(); }
+	var a = document.querySelectorAll('[data-id]');
+	for(var i = 0; i < a.length; i++) a[i].addEventListener('click', navToPerson);
+	a = undefined;
+});
+//]]></script>
+		</svg>
+		<div id="myModal" class="modal">
+			<div class="modal-content" id="modalContentWrap">
+				<div class="gbtn back" title="Назад"></div>
+				<div class="gbtn tree" title="Перейти в древо"></div>
+				<span class="close">&times;</span>
+				<div id="modalContent"></div>
+			</div>
+		</div>
+	</body>
+</html>
