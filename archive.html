@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Список дел</title><link rel="stylesheet" href="style.css?v=8"></head><body>
+<title>Список дел</title><link rel="stylesheet" href="archive/style.css?v=8"></head><body>
 <h1>Список дел</h1>
 <div class="toolbar">
 <input type="search" id="q" placeholder="Поиск по всем делам…">
@@ -8,7 +8,7 @@
 </div>
 <div id="app"><p class="empty">Загрузка data.json… (если не загрузилось — запустите из этой папки: python -m http.server 8000 и откройте http://localhost:8000/arch.html)</p></div>
 <script>
-fetch('data.json').then(r=>r.json()).then(render).catch(e=>{
+fetch('archive/data.json').then(r=>r.json()).then(render).catch(e=>{
   document.getElementById('app').innerHTML='<p class="empty">Не удалось загрузить data.json. Откройте страницу через локальный сервер: python -m http.server 8000 → http://localhost:8000/arch.html</p>';
 });
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
