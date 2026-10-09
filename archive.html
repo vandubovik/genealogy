@@ -6,10 +6,10 @@
 <input type="search" id="q" placeholder="Поиск по всем делам…">
 <button id="expand">Раскрыть все</button><button id="collapse">Свернуть все</button><button id="unsort">Сбросить сортировку</button>
 </div>
-<div id="app"><p class="empty">Загрузка data.json… (если не загрузилось — запустите из этой папки: python -m http.server 8000 и откройте http://localhost:8000/arch.html)</p></div>
+<div id="app"><p class="empty">Загрузка data.json… (если не загрузилось — запустите из этой папки: python -m http.server 8000 и откройте http://localhost:8000/archive.html)</p></div>
 <script>
 fetch('archive/data.json').then(r=>r.json()).then(render).catch(e=>{
-  document.getElementById('app').innerHTML='<p class="empty">Не удалось загрузить data.json. Откройте страницу через локальный сервер: python -m http.server 8000 → http://localhost:8000/arch.html</p>';
+  document.getElementById('app').innerHTML='<p class="empty">Не удалось загрузить data.json. Откройте страницу через локальный сервер: python -m http.server 8000 → http://localhost:8000/archive.html</p>';
 });
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function nestedTable(rows, cols){
