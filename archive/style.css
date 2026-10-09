@@ -1,0 +1,143 @@
+/* ===== Общие переменные ===== */
+:root{
+  --border:#d8dee6;   /* цвет рамок */
+  --head:#f2f5f9;     /* цвет шапок таблиц */
+  --accent:#2b6cb0;   /* синий акцент (сортировка, фокус) */
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  padding:24px 24px 80px 24px;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size:15px;
+  color:#1a202c;
+  background:#f7f9fc;
+}
+
+h1{font-size:20px;margin:0 0 16px}
+
+/* Подсветка найденного при поиске */
+b.hl{font-weight:700;color:#e11d2e}
+
+/* Панель инструментов: поиск + кнопки */
+.toolbar{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+input[type=search]{
+  padding:8px 12px;
+  border:1px solid var(--border);
+  border-radius:8px;
+  font:inherit;
+  min-width:280px;
+  background:#fff;
+}
+input[type=search]:focus{
+  outline:2px solid var(--accent);
+  outline-offset:1px;
+  border-color:transparent;
+}
+button{
+  padding:7px 12px;
+  border:1px solid var(--border);
+  border-radius:8px;
+  background:#fff;
+  font:inherit;
+  cursor:pointer;
+}
+button:hover{background:var(--head)}
+
+/* Заголовки секций (НАРБ, НИАБ, категории) */
+h2{font-size:16px;margin:24px 0 10px}
+
+/* Карточка вокруг каждой таблицы секции */
+.table-wrap{
+  overflow:auto;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:10px;
+  box-shadow:0 1px 2px rgba(16,24,40,.05);
+  margin-bottom:24px;
+}
+
+/* Основная таблица дел */
+table.cases{
+  border-collapse:separate;
+  border-spacing:0;
+  width:100%;
+  font-size:14px;
+}
+table.cases th,table.cases td{
+  padding:7px 10px;
+  border-bottom:1px solid var(--border);
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+table.cases > thead > tr > th:nth-child(-n+4){width:62px}
+table.cases > thead > tr > th{
+  position:sticky;
+  top:0;
+  z-index:1;
+  background:var(--head);
+  white-space:nowrap;
+  font-weight:600;
+}
+table.cases tbody tr:last-child td{border-bottom:none}
+
+/* Раскрываемые дела — жирным; без деталей — серым */
+tr.section td{background:var(--head);font-weight:bold}
+tr.has td{font-weight:bold;color:#1a202c}
+tr.has td.note{font-weight:normal;color:#5a6472}
+tr.nodata td{color:#5a6472}
+tr.clickable{cursor:pointer}
+tr.clickable td{transition:background .1s}
+tr.clickable:hover td{background:#eef4fb}
+
+/* Строка раскрытой вложенной таблицы */
+tr.dets td{
+  background:#fff;
+  padding:10px 14px;
+  border-top:1px solid var(--border);
+}
+
+/* Вложенная таблица */
+table.data{
+  border-collapse:separate;
+  border-spacing:0;
+  width:auto;
+  min-width:50%;
+  font-size:13px;
+  background:#fff;
+}
+table.data th,table.data td{
+  padding:4px 9px;
+  border:1px solid var(--border);
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+table.data th{
+  background:var(--head);
+  white-space:nowrap;
+  cursor:pointer;
+  user-select:none;
+  font-weight:600;
+}
+table.data tbody tr:last-child td{border-bottom:1px solid var(--border)}
+
+/* Индикаторы сортировки: ↕ — не сортировали, ▲ / ▼ — направление */
+table.data th.sorth::after{content:' ↕';opacity:.4;font-size:11px;margin-left:3px}
+table.data th.sorth.asc::after{content:' ▲';opacity:1;color:var(--accent)}
+table.data th.sorth.desc::after{content:' ▼';opacity:1;color:var(--accent)}
+
+/* Примечание и пустые состояния */
+.note{color:#5a6472;font-size:13px}
+.empty{color:#aab2bd;text-align:center;padding:40px}
